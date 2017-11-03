@@ -110,7 +110,7 @@ static id swpBaseLocation_;
  *
  *  @brief  shareInstance   ( 单利 )
  *
- *  @return SwpNetworkModel
+ *  @return NSObject
  */
 + (instancetype)shareInstance {
     static dispatch_once_t onceToken;
