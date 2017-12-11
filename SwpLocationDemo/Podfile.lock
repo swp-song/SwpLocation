@@ -1,5 +1,5 @@
 PODS:
-  - SwpLocation (1.0.2)
+  - SwpLocation (1.0.3)
 
 DEPENDENCIES:
   - SwpLocation (from `../`)
@@ -9,7 +9,7 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  SwpLocation: 6c30fd4393f1eb11c706b11b38037afc89961d19
+  SwpLocation: 5599af0a666c12ce087652cc7493c29b74020f98
 
 PODFILE CHECKSUM: 91e0a27941d2547174c432efe71e61db7b291423
 

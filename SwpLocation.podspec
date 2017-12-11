@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwpLocation"
-  s.version      = "1.0.2"
+  s.version      = "1.0.3"
   s.summary      = "iOS，系统定位封装"
 
   # This description is used to generate tags and improve search results.
