@@ -30,6 +30,16 @@ typedef NS_ENUM(int, SwpLocationAuthorizedStatus) {
     kSwpLocationAuthorizedStatusAuthorizedWhenInUse = kCLAuthorizationStatusAuthorizedWhenInUse,
 };
 
+/**
+ - SwpLocationMode
+ - SwpLocationRequestWhenInUseAuthorization:
+ - SwpLocationRequestAlwaysAuthorization:
+ */
+typedef NS_ENUM(NSInteger, SwpLocationMode) {
+    
+    SwpLocationRequestWhenInUseAuthorization,
+    SwpLocationRequestAlwaysAuthorization,
+};
 
 
 @end

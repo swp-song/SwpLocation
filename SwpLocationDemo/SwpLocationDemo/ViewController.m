@@ -39,6 +39,7 @@
     __weak typeof(self) weakSelf = self;
     //  初始化
     SwpLocation.shareInstanceInit()
+    .swpLocationMode(SwpLocationRequestAlwaysAuthorization)
     //  打开定位
     .swpLocationOpenChain()
     //  定位失败回调

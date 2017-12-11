@@ -22,6 +22,8 @@
 /* 地理编码对象 */
 @property (nonatomic, strong) CLGeocoder        *geocoder;
 
+@property (nonatomic, assign) SwpLocationMode   swpLocationMode_;
+
 /* SwpLocation 回调方法，获取定位权限，定位权限发生改变时调用  */
 @property (nonatomic, copy, setter = swpLocationDidChangeAuthorizationStatus:) void(^swpLocationDidChangeAuthorizationStatus)(SwpLocation *, SwpLocationAuthorizedStatus);
 /* SwpLocation 回调方法，定位成功调用  */
@@ -188,18 +190,21 @@
  */
 - (void)swpLocationOpen {
     
+    
     if (UIDevice.currentDevice.systemVersion.floatValue >= 8) {
-        //  [self.swpLocationManager requestWhenInUseAuthorization];
-        [self.locationManager requestAlwaysAuthorization];
+        switch (self.swpLocationMode_) {
+            case SwpLocationRequestWhenInUseAuthorization:
+                [self.locationManager requestWhenInUseAuthorization];
+                break;
+            case SwpLocationRequestAlwaysAuthorization:
+                [self.locationManager requestAlwaysAuthorization];
+                break;
+                
+            default:
+                [self.locationManager requestWhenInUseAuthorization];
+                break;
+        }
     }
-    
-    // 5.iOS9新特性：将允许出现这种场景：同一app中多个location manager：一些只能在前台定位，另一些可在后台定位（并可随时禁止其后台定位）。
-    if (UIDevice.currentDevice.systemVersion.floatValue >= 9) {
-        
-        //  self.locationManager.allowsBackgroundLocationUpdates = YES;
-    }
-    
-
     
     self.swpLocationStartChain();
 }
@@ -261,6 +266,19 @@
     };
 }
 
+
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationMode ( 设置定位模式 )
+ */
+- (__kindof SwpLocation * _Nonnull (^)(SwpLocationMode))swpLocationMode {
+    
+    return ^(SwpLocationMode locationMode) {
+        self.swpLocationMode_ = locationMode;
+        return self;
+    };
+}
 
 /**
  *  @author swp_song

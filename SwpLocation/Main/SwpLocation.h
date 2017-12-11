@@ -9,6 +9,11 @@
 #import "SwpBaseLocation.h"
 
 NS_ASSUME_NONNULL_BEGIN
+
+
+
+
+
 @interface SwpLocation : SwpBaseLocation
 
 
@@ -61,6 +66,13 @@ NS_ASSUME_NONNULL_BEGIN
  *  @brief  swpLocationStartChain   ( 停止定位 )
  */
 - (__kindof SwpLocation * _Nonnull (^)(void))swpLocationStopChain;
+
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationMode ( 设置定位模式 )
+ */
+- (__kindof SwpLocation * _Nonnull (^)(SwpLocationMode))swpLocationMode;
 
 /* 代理属性 */
 @property (nonatomic, weak, nullable) id<SwpLocationDelegate>delegate_;
@@ -137,6 +149,8 @@ NS_ASSUME_NONNULL_BEGIN
  *  @brief  swpLocationReverseGeocodeChain  ( SwpLocation 回调方法，反地理编码调用 )
  */
 - (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain;
+
+
 
 @end
 NS_ASSUME_NONNULL_END
