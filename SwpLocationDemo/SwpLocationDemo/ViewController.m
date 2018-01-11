@@ -45,12 +45,12 @@
     //  定位失败回调
     .swpLocationErrorChain(^(SwpLocation *swpLocation, NSError *error){
         NSLog(@"%@", error);
-        __strong typeof(self) strongSelf = weakSelf;
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
         strongSelf.locationAddressView.text = @"定位失败 !";
     })
     //  定位成功，获取定位信息回调
     .swpLocationReverseGeocodeChain(^(SwpLocation *swpLocation, SwpLocationModel *model, NSError *error){
-        __strong typeof(self) strongSelf = weakSelf;
+        __strong __typeof(weakSelf)strongSelf = weakSelf;
         NSLog(@"%@", model.locationAddress);
         strongSelf.locationAddressView.text = model.locationAddress;
         
