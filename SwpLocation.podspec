@@ -16,7 +16,7 @@ Pod::Spec.new do |s|
   #
 
   s.name         = "SwpLocation"
-  s.version      = "1.0.5"
+  s.version      = "1.0.6"
   s.summary      = "iOS，系统定位封装"
 
   # This description is used to generate tags and improve search results.
@@ -53,7 +53,7 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { " swp_song" => "email@address.com" }
+  s.author             = { "swp_song" => "396587868@qq.com" }
   # Or just: s.author    = " swp_song"
   # s.authors            = { " swp_song" => "email@address.com" }
   # s.social_media_url   = "http://twitter.com/ swp_song"

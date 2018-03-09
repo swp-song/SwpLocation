@@ -2,9 +2,18 @@
 
 ### SwpLocation
 
+<!-- ![![CI Status](http://img.shields.io/travis/swp-song/SwpLocation.svg?style=flat)](https://travis-ci.org/swp-song/SwpLocation) -->
+
+[![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) [![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
+
+-------
+
+###  简介
+
 > * 简单封装系统定位，并进行坐标转换，**GCJ02 <火星>** 坐标系转换成 **BD09<百度>** 坐标系。
 
 -------
+
 
 ### 导入
 
@@ -61,17 +70,18 @@ SwpLocation.shareInstanceInit()
 
 -------
 
+> * 版本版本：1.0.6
+> * 更新时间：2018-03-09 10:16:31
+> * 更新内容：
+    *  迭代更新，更新 Demo
+    
+-------
+
 > * 版本版本：1.0.5
 > * 更新时间：2018-01-11 09:26:37
 > * 更新内容：
     * 更新 Demo Block 问题
 
--------
-
-> * 版本版本：1.0.4
-> * 更新时间：2017-12-11 15:04:46
-> * 更新内容：
-    * 更新版本
 
 -------
 
