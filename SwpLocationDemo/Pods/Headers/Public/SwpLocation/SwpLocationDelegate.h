@@ -1,1 +1,1 @@
-../../../../../SwpLocation/Others/DataTypes/SwpLocationDelegate.h
+../../../../../SwpLocation/Class/Others/DataTypes/SwpLocationDelegate.h

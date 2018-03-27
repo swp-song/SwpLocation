@@ -8,6 +8,8 @@
 
 #import "SwpBaseLocation.h"
 
+
+
 @interface SwpBaseLocation()
 
 @end
@@ -121,6 +123,27 @@ static id swpBaseLocation_;
 }
 
 
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationInfo ( 获取 SwpLocation 信息 )
+ *
+ *  @return NSDictionary
+ */
+- (NSDictionary *)swpLocationInfo {
+    return [NSDictionary dictionaryWithContentsOfFile:[NSBundle.mainBundle pathForResource:@"SwpLocation.bundle/SwpLocation.plist" ofType:nil]].copy;
+}
+
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationVersion  ( 获取 SwpLocation 版本号 )
+ *
+ *  @return NSString
+ */
+- (NSString *)swpLocationVersion {
+    return [self swpLocationInfo][@"Version"];
+}
 
 
 @end

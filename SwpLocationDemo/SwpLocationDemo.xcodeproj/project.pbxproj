@@ -7,130 +7,90 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		2DEA05AD1FA9C70900B477E3 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA05AC1FA9C70900B477E3 /* AppDelegate.m */; };
-		2DEA05B01FA9C70900B477E3 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA05AF1FA9C70900B477E3 /* ViewController.m */; };
-		2DEA05B31FA9C70900B477E3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA05B11FA9C70900B477E3 /* Main.storyboard */; };
-		2DEA05B51FA9C70900B477E3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA05B41FA9C70900B477E3 /* Assets.xcassets */; };
-		2DEA05B81FA9C70900B477E3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2DEA05B61FA9C70900B477E3 /* LaunchScreen.storyboard */; };
-		2DEA05BB1FA9C70900B477E3 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA05BA1FA9C70900B477E3 /* main.m */; };
-		2DEA05C51FA9C70900B477E3 /* SwpLocationDemoTests.m in Sources */ = {isa = PBXBuildFile; fileRef = 2DEA05C41FA9C70900B477E3 /* SwpLocationDemoTests.m */; };
-		920B87484E12DED2129E2904 /* libPods-SwpLocationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 1FD30A7B1F4D89C215FA7424 /* libPods-SwpLocationDemo.a */; };
-		F69B563333358E1024CF37A6 /* libPods-SwpLocationDemoTests.a in Frameworks */ = {isa = PBXBuildFile; fileRef = ADBE80C5F87BDFE14F27042A /* libPods-SwpLocationDemoTests.a */; };
+		12AC9F79778DC25DA7CFF35E /* libPods-SwpLocationDemo.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 81431CA89713DE62DAE65AA1 /* libPods-SwpLocationDemo.a */; };
+		2D2506002069F7EA00C96B0D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2505FF2069F7EA00C96B0D /* AppDelegate.m */; };
+		2D2506032069F7EA00C96B0D /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D2506022069F7EA00C96B0D /* ViewController.m */; };
+		2D2506062069F7EA00C96B0D /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2506042069F7EA00C96B0D /* Main.storyboard */; };
+		2D2506082069F7EA00C96B0D /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 2D2506072069F7EA00C96B0D /* Assets.xcassets */; };
+		2D25060B2069F7EA00C96B0D /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 2D2506092069F7EA00C96B0D /* LaunchScreen.storyboard */; };
+		2D25060E2069F7EA00C96B0D /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D25060D2069F7EA00C96B0D /* main.m */; };
 /* End PBXBuildFile section */
 
-/* Begin PBXContainerItemProxy section */
-		2DEA05C11FA9C70900B477E3 /* PBXContainerItemProxy */ = {
-			isa = PBXContainerItemProxy;
-			containerPortal = 2DEA05A01FA9C70900B477E3 /* Project object */;
-			proxyType = 1;
-			remoteGlobalIDString = 2DEA05A71FA9C70900B477E3;
-			remoteInfo = SwpLocationDemo;
-		};
-/* End PBXContainerItemProxy section */
-
 /* Begin PBXFileReference section */
-		002611AC469845732EAF0676 /* Pods-SwpLocationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwpLocationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo.release.xcconfig"; sourceTree = "<group>"; };
-		1FD30A7B1F4D89C215FA7424 /* libPods-SwpLocationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwpLocationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEA05A81FA9C70900B477E3 /* SwpLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwpLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEA05AB1FA9C70900B477E3 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
-		2DEA05AC1FA9C70900B477E3 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
-		2DEA05AE1FA9C70900B477E3 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
-		2DEA05AF1FA9C70900B477E3 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		2DEA05B21FA9C70900B477E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
-		2DEA05B41FA9C70900B477E3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
-		2DEA05B71FA9C70900B477E3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
-		2DEA05B91FA9C70900B477E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		2DEA05BA1FA9C70900B477E3 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
-		2DEA05C01FA9C70900B477E3 /* SwpLocationDemoTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = SwpLocationDemoTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
-		2DEA05C41FA9C70900B477E3 /* SwpLocationDemoTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SwpLocationDemoTests.m; sourceTree = "<group>"; };
-		2DEA05C61FA9C70900B477E3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		3888A97B651F705346BAEB51 /* Pods-SwpLocationDemoTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwpLocationDemoTests.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwpLocationDemoTests/Pods-SwpLocationDemoTests.debug.xcconfig"; sourceTree = "<group>"; };
-		A125B29F254E583DBE49C2F5 /* Pods-SwpLocationDemoTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwpLocationDemoTests.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwpLocationDemoTests/Pods-SwpLocationDemoTests.release.xcconfig"; sourceTree = "<group>"; };
-		ADBE80C5F87BDFE14F27042A /* libPods-SwpLocationDemoTests.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwpLocationDemoTests.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		C44D27A863477CD47C370836 /* Pods-SwpLocationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwpLocationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		0325E87A1B9D7DB12D75150D /* Pods-SwpLocationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwpLocationDemo.release.xcconfig"; path = "Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		2D2505FB2069F7EA00C96B0D /* SwpLocationDemo.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = SwpLocationDemo.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		2D2505FE2069F7EA00C96B0D /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		2D2505FF2069F7EA00C96B0D /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		2D2506012069F7EA00C96B0D /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		2D2506022069F7EA00C96B0D /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		2D2506052069F7EA00C96B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		2D2506072069F7EA00C96B0D /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		2D25060A2069F7EA00C96B0D /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		2D25060C2069F7EA00C96B0D /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		2D25060D2069F7EA00C96B0D /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		81431CA89713DE62DAE65AA1 /* libPods-SwpLocationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-SwpLocationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		AAC916F89A7487D8F4BC0A1D /* Pods-SwpLocationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-SwpLocationDemo.debug.xcconfig"; path = "Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		2DEA05A51FA9C70900B477E3 /* Frameworks */ = {
+		2D2505F82069F7EA00C96B0D /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				920B87484E12DED2129E2904 /* libPods-SwpLocationDemo.a in Frameworks */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEA05BD1FA9C70900B477E3 /* Frameworks */ = {
-			isa = PBXFrameworksBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				F69B563333358E1024CF37A6 /* libPods-SwpLocationDemoTests.a in Frameworks */,
+				12AC9F79778DC25DA7CFF35E /* libPods-SwpLocationDemo.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		2DEA059F1FA9C70900B477E3 = {
+		2D2505F22069F7EA00C96B0D = {
 			isa = PBXGroup;
 			children = (
-				2DEA05AA1FA9C70900B477E3 /* SwpLocationDemo */,
-				2DEA05C31FA9C70900B477E3 /* SwpLocationDemoTests */,
-				2DEA05A91FA9C70900B477E3 /* Products */,
-				3D4C01930179ED0FE13CAA8E /* Pods */,
-				FE2267DEBDAB32C2E145A225 /* Frameworks */,
+				2D2505FD2069F7EA00C96B0D /* SwpLocationDemo */,
+				2D2505FC2069F7EA00C96B0D /* Products */,
+				2D5D5DE81A8CE79CD5DBE721 /* Pods */,
+				7C73F6E1AC803A66EEFAA214 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
-		2DEA05A91FA9C70900B477E3 /* Products */ = {
+		2D2505FC2069F7EA00C96B0D /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				2DEA05A81FA9C70900B477E3 /* SwpLocationDemo.app */,
-				2DEA05C01FA9C70900B477E3 /* SwpLocationDemoTests.xctest */,
+				2D2505FB2069F7EA00C96B0D /* SwpLocationDemo.app */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		2DEA05AA1FA9C70900B477E3 /* SwpLocationDemo */ = {
+		2D2505FD2069F7EA00C96B0D /* SwpLocationDemo */ = {
 			isa = PBXGroup;
 			children = (
-				2DEA05AB1FA9C70900B477E3 /* AppDelegate.h */,
-				2DEA05AC1FA9C70900B477E3 /* AppDelegate.m */,
-				2DEA05AE1FA9C70900B477E3 /* ViewController.h */,
-				2DEA05AF1FA9C70900B477E3 /* ViewController.m */,
-				2DEA05B11FA9C70900B477E3 /* Main.storyboard */,
-				2DEA05B41FA9C70900B477E3 /* Assets.xcassets */,
-				2DEA05B61FA9C70900B477E3 /* LaunchScreen.storyboard */,
-				2DEA05B91FA9C70900B477E3 /* Info.plist */,
-				2DEA05BA1FA9C70900B477E3 /* main.m */,
+				2D2505FE2069F7EA00C96B0D /* AppDelegate.h */,
+				2D2505FF2069F7EA00C96B0D /* AppDelegate.m */,
+				2D2506012069F7EA00C96B0D /* ViewController.h */,
+				2D2506022069F7EA00C96B0D /* ViewController.m */,
+				2D2506042069F7EA00C96B0D /* Main.storyboard */,
+				2D2506072069F7EA00C96B0D /* Assets.xcassets */,
+				2D2506092069F7EA00C96B0D /* LaunchScreen.storyboard */,
+				2D25060C2069F7EA00C96B0D /* Info.plist */,
+				2D25060D2069F7EA00C96B0D /* main.m */,
 			);
 			path = SwpLocationDemo;
 			sourceTree = "<group>";
 		};
-		2DEA05C31FA9C70900B477E3 /* SwpLocationDemoTests */ = {
+		2D5D5DE81A8CE79CD5DBE721 /* Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2DEA05C41FA9C70900B477E3 /* SwpLocationDemoTests.m */,
-				2DEA05C61FA9C70900B477E3 /* Info.plist */,
-			);
-			path = SwpLocationDemoTests;
-			sourceTree = "<group>";
-		};
-		3D4C01930179ED0FE13CAA8E /* Pods */ = {
-			isa = PBXGroup;
-			children = (
-				C44D27A863477CD47C370836 /* Pods-SwpLocationDemo.debug.xcconfig */,
-				002611AC469845732EAF0676 /* Pods-SwpLocationDemo.release.xcconfig */,
-				3888A97B651F705346BAEB51 /* Pods-SwpLocationDemoTests.debug.xcconfig */,
-				A125B29F254E583DBE49C2F5 /* Pods-SwpLocationDemoTests.release.xcconfig */,
+				AAC916F89A7487D8F4BC0A1D /* Pods-SwpLocationDemo.debug.xcconfig */,
+				0325E87A1B9D7DB12D75150D /* Pods-SwpLocationDemo.release.xcconfig */,
 			);
 			name = Pods;
 			sourceTree = "<group>";
 		};
-		FE2267DEBDAB32C2E145A225 /* Frameworks */ = {
+		7C73F6E1AC803A66EEFAA214 /* Frameworks */ = {
 			isa = PBXGroup;
 			children = (
-				1FD30A7B1F4D89C215FA7424 /* libPods-SwpLocationDemo.a */,
-				ADBE80C5F87BDFE14F27042A /* libPods-SwpLocationDemoTests.a */,
+				81431CA89713DE62DAE65AA1 /* libPods-SwpLocationDemo.a */,
 			);
 			name = Frameworks;
 			sourceTree = "<group>";
@@ -138,16 +98,15 @@
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
-		2DEA05A71FA9C70900B477E3 /* SwpLocationDemo */ = {
+		2D2505FA2069F7EA00C96B0D /* SwpLocationDemo */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 2DEA05C91FA9C70900B477E3 /* Build configuration list for PBXNativeTarget "SwpLocationDemo" */;
+			buildConfigurationList = 2D2506112069F7EA00C96B0D /* Build configuration list for PBXNativeTarget "SwpLocationDemo" */;
 			buildPhases = (
-				F771CAD255E483FB579D218D /* [CP] Check Pods Manifest.lock */,
-				2DEA05A41FA9C70900B477E3 /* Sources */,
-				2DEA05A51FA9C70900B477E3 /* Frameworks */,
-				2DEA05A61FA9C70900B477E3 /* Resources */,
-				A4BD54C298A2DF0B6479C2D9 /* [CP] Embed Pods Frameworks */,
-				2DF763732819BE4FEFC6AF59 /* [CP] Copy Pods Resources */,
+				FB2FE7537AAAB0A5971BAD20 /* [CP] Check Pods Manifest.lock */,
+				2D2505F72069F7EA00C96B0D /* Sources */,
+				2D2505F82069F7EA00C96B0D /* Frameworks */,
+				2D2505F92069F7EA00C96B0D /* Resources */,
+				E476EE6700623079A82D5C07 /* [CP] Copy Pods Resources */,
 			);
 			buildRules = (
 			);
@@ -155,51 +114,25 @@
 			);
 			name = SwpLocationDemo;
 			productName = SwpLocationDemo;
-			productReference = 2DEA05A81FA9C70900B477E3 /* SwpLocationDemo.app */;
+			productReference = 2D2505FB2069F7EA00C96B0D /* SwpLocationDemo.app */;
 			productType = "com.apple.product-type.application";
-		};
-		2DEA05BF1FA9C70900B477E3 /* SwpLocationDemoTests */ = {
-			isa = PBXNativeTarget;
-			buildConfigurationList = 2DEA05CC1FA9C70900B477E3 /* Build configuration list for PBXNativeTarget "SwpLocationDemoTests" */;
-			buildPhases = (
-				B0449DE9EB2555002B362469 /* [CP] Check Pods Manifest.lock */,
-				2DEA05BC1FA9C70900B477E3 /* Sources */,
-				2DEA05BD1FA9C70900B477E3 /* Frameworks */,
-				2DEA05BE1FA9C70900B477E3 /* Resources */,
-				293A921614FEBDC46B8B22E0 /* [CP] Embed Pods Frameworks */,
-				0E61A36FFE7358F83C72E127 /* [CP] Copy Pods Resources */,
-			);
-			buildRules = (
-			);
-			dependencies = (
-				2DEA05C21FA9C70900B477E3 /* PBXTargetDependency */,
-			);
-			name = SwpLocationDemoTests;
-			productName = SwpLocationDemoTests;
-			productReference = 2DEA05C01FA9C70900B477E3 /* SwpLocationDemoTests.xctest */;
-			productType = "com.apple.product-type.bundle.unit-test";
 		};
 /* End PBXNativeTarget section */
 
 /* Begin PBXProject section */
-		2DEA05A01FA9C70900B477E3 /* Project object */ = {
+		2D2505F32069F7EA00C96B0D /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
-				LastUpgradeCheck = 0910;
+				LastUpgradeCheck = 0920;
 				ORGANIZATIONNAME = swp_song;
 				TargetAttributes = {
-					2DEA05A71FA9C70900B477E3 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-					};
-					2DEA05BF1FA9C70900B477E3 = {
-						CreatedOnToolsVersion = 9.1;
-						ProvisioningStyle = Automatic;
-						TestTargetID = 2DEA05A71FA9C70900B477E3;
+					2D2505FA2069F7EA00C96B0D = {
+						CreatedOnToolsVersion = 9.2;
+						ProvisioningStyle = Manual;
 					};
 				};
 			};
-			buildConfigurationList = 2DEA05A31FA9C70900B477E3 /* Build configuration list for PBXProject "SwpLocationDemo" */;
+			buildConfigurationList = 2D2505F62069F7EA00C96B0D /* Build configuration list for PBXProject "SwpLocationDemo" */;
 			compatibilityVersion = "Xcode 8.0";
 			developmentRegion = en;
 			hasScannedForEncodings = 0;
@@ -207,117 +140,49 @@
 				en,
 				Base,
 			);
-			mainGroup = 2DEA059F1FA9C70900B477E3;
-			productRefGroup = 2DEA05A91FA9C70900B477E3 /* Products */;
+			mainGroup = 2D2505F22069F7EA00C96B0D;
+			productRefGroup = 2D2505FC2069F7EA00C96B0D /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				2DEA05A71FA9C70900B477E3 /* SwpLocationDemo */,
-				2DEA05BF1FA9C70900B477E3 /* SwpLocationDemoTests */,
+				2D2505FA2069F7EA00C96B0D /* SwpLocationDemo */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXResourcesBuildPhase section */
-		2DEA05A61FA9C70900B477E3 /* Resources */ = {
+		2D2505F92069F7EA00C96B0D /* Resources */ = {
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DEA05B81FA9C70900B477E3 /* LaunchScreen.storyboard in Resources */,
-				2DEA05B51FA9C70900B477E3 /* Assets.xcassets in Resources */,
-				2DEA05B31FA9C70900B477E3 /* Main.storyboard in Resources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEA05BE1FA9C70900B477E3 /* Resources */ = {
-			isa = PBXResourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
+				2D25060B2069F7EA00C96B0D /* LaunchScreen.storyboard in Resources */,
+				2D2506082069F7EA00C96B0D /* Assets.xcassets in Resources */,
+				2D2506062069F7EA00C96B0D /* Main.storyboard in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
-		0E61A36FFE7358F83C72E127 /* [CP] Copy Pods Resources */ = {
+		E476EE6700623079A82D5C07 /* [CP] Copy Pods Resources */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
 			);
 			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo-resources.sh",
+				"${PODS_ROOT}/../../SwpLocation/Resources/SwpLocation.bundle",
 			);
 			name = "[CP] Copy Pods Resources";
 			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwpLocationDemoTests/Pods-SwpLocationDemoTests-resources.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		293A921614FEBDC46B8B22E0 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwpLocationDemoTests/Pods-SwpLocationDemoTests-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		2DF763732819BE4FEFC6AF59 /* [CP] Copy Pods Resources */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Copy Pods Resources";
-			outputPaths = (
+				"${TARGET_BUILD_DIR}/${UNLOCALIZED_RESOURCES_FOLDER_PATH}/SwpLocation.bundle",
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 			shellPath = /bin/sh;
 			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo-resources.sh\"\n";
 			showEnvVarsInLog = 0;
 		};
-		A4BD54C298A2DF0B6479C2D9 /* [CP] Embed Pods Frameworks */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-			);
-			name = "[CP] Embed Pods Frameworks";
-			outputPaths = (
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-SwpLocationDemo/Pods-SwpLocationDemo-frameworks.sh\"\n";
-			showEnvVarsInLog = 0;
-		};
-		B0449DE9EB2555002B362469 /* [CP] Check Pods Manifest.lock */ = {
-			isa = PBXShellScriptBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-			);
-			inputPaths = (
-				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
-				"${PODS_ROOT}/Manifest.lock",
-			);
-			name = "[CP] Check Pods Manifest.lock";
-			outputPaths = (
-				"$(DERIVED_FILE_DIR)/Pods-SwpLocationDemoTests-checkManifestLockResult.txt",
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-			shellPath = /bin/sh;
-			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
-			showEnvVarsInLog = 0;
-		};
-		F771CAD255E483FB579D218D /* [CP] Check Pods Manifest.lock */ = {
+		FB2FE7537AAAB0A5971BAD20 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
@@ -338,47 +203,31 @@
 /* End PBXShellScriptBuildPhase section */
 
 /* Begin PBXSourcesBuildPhase section */
-		2DEA05A41FA9C70900B477E3 /* Sources */ = {
+		2D2505F72069F7EA00C96B0D /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2DEA05B01FA9C70900B477E3 /* ViewController.m in Sources */,
-				2DEA05BB1FA9C70900B477E3 /* main.m in Sources */,
-				2DEA05AD1FA9C70900B477E3 /* AppDelegate.m in Sources */,
-			);
-			runOnlyForDeploymentPostprocessing = 0;
-		};
-		2DEA05BC1FA9C70900B477E3 /* Sources */ = {
-			isa = PBXSourcesBuildPhase;
-			buildActionMask = 2147483647;
-			files = (
-				2DEA05C51FA9C70900B477E3 /* SwpLocationDemoTests.m in Sources */,
+				2D2506032069F7EA00C96B0D /* ViewController.m in Sources */,
+				2D25060E2069F7EA00C96B0D /* main.m in Sources */,
+				2D2506002069F7EA00C96B0D /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
-/* Begin PBXTargetDependency section */
-		2DEA05C21FA9C70900B477E3 /* PBXTargetDependency */ = {
-			isa = PBXTargetDependency;
-			target = 2DEA05A71FA9C70900B477E3 /* SwpLocationDemo */;
-			targetProxy = 2DEA05C11FA9C70900B477E3 /* PBXContainerItemProxy */;
-		};
-/* End PBXTargetDependency section */
-
 /* Begin PBXVariantGroup section */
-		2DEA05B11FA9C70900B477E3 /* Main.storyboard */ = {
+		2D2506042069F7EA00C96B0D /* Main.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2DEA05B21FA9C70900B477E3 /* Base */,
+				2D2506052069F7EA00C96B0D /* Base */,
 			);
 			name = Main.storyboard;
 			sourceTree = "<group>";
 		};
-		2DEA05B61FA9C70900B477E3 /* LaunchScreen.storyboard */ = {
+		2D2506092069F7EA00C96B0D /* LaunchScreen.storyboard */ = {
 			isa = PBXVariantGroup;
 			children = (
-				2DEA05B71FA9C70900B477E3 /* Base */,
+				2D25060A2069F7EA00C96B0D /* Base */,
 			);
 			name = LaunchScreen.storyboard;
 			sourceTree = "<group>";
@@ -386,7 +235,7 @@
 /* End PBXVariantGroup section */
 
 /* Begin XCBuildConfiguration section */
-		2DEA05C71FA9C70900B477E3 /* Debug */ = {
+		2D25060F2069F7EA00C96B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -434,14 +283,14 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = YES;
 				ONLY_ACTIVE_ARCH = YES;
 				SDKROOT = iphoneos;
 			};
 			name = Debug;
 		};
-		2DEA05C81FA9C70900B477E3 /* Release */ = {
+		2D2506102069F7EA00C96B0D /* Release */ = {
 			isa = XCBuildConfiguration;
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
@@ -483,106 +332,67 @@
 				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
 				GCC_WARN_UNUSED_FUNCTION = YES;
 				GCC_WARN_UNUSED_VARIABLE = YES;
-				IPHONEOS_DEPLOYMENT_TARGET = 11.1;
+				IPHONEOS_DEPLOYMENT_TARGET = 11.2;
 				MTL_ENABLE_DEBUG_INFO = NO;
 				SDKROOT = iphoneos;
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		2DEA05CA1FA9C70900B477E3 /* Debug */ = {
+		2D2506122069F7EA00C96B0D /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = C44D27A863477CD47C370836 /* Pods-SwpLocationDemo.debug.xcconfig */;
+			baseConfigurationReference = AAC916F89A7487D8F4BC0A1D /* Pods-SwpLocationDemo.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwpLocationDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "swp-song.SwpLocationDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Debug;
 		};
-		2DEA05CB1FA9C70900B477E3 /* Release */ = {
+		2D2506132069F7EA00C96B0D /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 002611AC469845732EAF0676 /* Pods-SwpLocationDemo.release.xcconfig */;
+			baseConfigurationReference = 0325E87A1B9D7DB12D75150D /* Pods-SwpLocationDemo.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
-				CODE_SIGN_STYLE = Automatic;
+				CODE_SIGN_STYLE = Manual;
+				DEVELOPMENT_TEAM = "";
 				INFOPLIST_FILE = SwpLocationDemo/Info.plist;
-				IPHONEOS_DEPLOYMENT_TARGET = 9.0;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_BUNDLE_IDENTIFIER = "swp-song.SwpLocationDemo";
 				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-			};
-			name = Release;
-		};
-		2DEA05CD1FA9C70900B477E3 /* Debug */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = 3888A97B651F705346BAEB51 /* Pods-SwpLocationDemoTests.debug.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwpLocationDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "swp-song.SwpLocationDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwpLocationDemo.app/SwpLocationDemo";
-			};
-			name = Debug;
-		};
-		2DEA05CE1FA9C70900B477E3 /* Release */ = {
-			isa = XCBuildConfiguration;
-			baseConfigurationReference = A125B29F254E583DBE49C2F5 /* Pods-SwpLocationDemoTests.release.xcconfig */;
-			buildSettings = {
-				BUNDLE_LOADER = "$(TEST_HOST)";
-				CODE_SIGN_STYLE = Automatic;
-				DEVELOPMENT_TEAM = "";
-				INFOPLIST_FILE = SwpLocationDemoTests/Info.plist;
-				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
-				PRODUCT_BUNDLE_IDENTIFIER = "swp-song.SwpLocationDemoTests";
-				PRODUCT_NAME = "$(TARGET_NAME)";
-				TARGETED_DEVICE_FAMILY = "1,2";
-				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/SwpLocationDemo.app/SwpLocationDemo";
+				PROVISIONING_PROFILE_SPECIFIER = "";
+				TARGETED_DEVICE_FAMILY = 1;
 			};
 			name = Release;
 		};
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		2DEA05A31FA9C70900B477E3 /* Build configuration list for PBXProject "SwpLocationDemo" */ = {
+		2D2505F62069F7EA00C96B0D /* Build configuration list for PBXProject "SwpLocationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DEA05C71FA9C70900B477E3 /* Debug */,
-				2DEA05C81FA9C70900B477E3 /* Release */,
+				2D25060F2069F7EA00C96B0D /* Debug */,
+				2D2506102069F7EA00C96B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		2DEA05C91FA9C70900B477E3 /* Build configuration list for PBXNativeTarget "SwpLocationDemo" */ = {
+		2D2506112069F7EA00C96B0D /* Build configuration list for PBXNativeTarget "SwpLocationDemo" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				2DEA05CA1FA9C70900B477E3 /* Debug */,
-				2DEA05CB1FA9C70900B477E3 /* Release */,
-			);
-			defaultConfigurationIsVisible = 0;
-			defaultConfigurationName = Release;
-		};
-		2DEA05CC1FA9C70900B477E3 /* Build configuration list for PBXNativeTarget "SwpLocationDemoTests" */ = {
-			isa = XCConfigurationList;
-			buildConfigurations = (
-				2DEA05CD1FA9C70900B477E3 /* Debug */,
-				2DEA05CE1FA9C70900B477E3 /* Release */,
+				2D2506122069F7EA00C96B0D /* Debug */,
+				2D2506132069F7EA00C96B0D /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};
-	rootObject = 2DEA05A01FA9C70900B477E3 /* Project object */;
+	rootObject = 2D2505F32069F7EA00C96B0D /* Project object */;
 }

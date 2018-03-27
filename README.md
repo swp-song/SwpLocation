@@ -2,9 +2,7 @@
 
 ### SwpLocation
 
-<!-- ![![CI Status](http://img.shields.io/travis/swp-song/SwpLocation.svg?style=flat)](https://travis-ci.org/swp-song/SwpLocation) -->
-
-[![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) [![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
+[![Build Status](https://travis-ci.org/swp-song/SwpLocation.svg?branch=master)](https://travis-ci.org/swp-song/SwpLocation) [![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) [![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
 
 -------
 
@@ -68,22 +66,21 @@ SwpLocation.shareInstanceInit()
 
 ### 版本记录
 
--------
+> * 版本版本：1.1.0
+> * 更新时间：2018-03-27 14:25:17
+> * 更新内容：
+>> * 新增资源文件，获取 SwpLocation 信息
 
+-------
+    
 > * 版本版本：1.0.6
 > * 更新时间：2018-03-09 10:16:31
 > * 更新内容：
-    *  迭代更新，更新 Demo
+>>  *  迭代更新，更新 Demo
     
 -------
 
-> * 版本版本：1.0.5
-> * 更新时间：2018-01-11 09:26:37
-> * 更新内容：
-    * 更新 Demo Block 问题
 
-
--------
 
 ### 备注
 

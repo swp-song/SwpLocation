@@ -1,1 +1,1 @@
-../../../../../SwpLocation/Others/Models/SwpLocationModel.h
+../../../../../SwpLocation/Class/Others/Models/SwpLocationModel.h

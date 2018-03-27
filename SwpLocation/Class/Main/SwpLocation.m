@@ -324,7 +324,7 @@
 - (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain {
     
     return ^(void(^swpLocationDidChangeAuthorizationStatus)(SwpLocation *swpLocation, SwpLocationAuthorizedStatus status)) {
-        _swpLocationDidChangeAuthorizationStatus = swpLocationDidChangeAuthorizationStatus;
+        [self swpLocationDidChangeAuthorizationStatus:swpLocationDidChangeAuthorizationStatus];
         return self;
     };
 }
@@ -349,7 +349,7 @@
 - (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSArray * _Nonnull)))swpLocationSuccessChain {
     
     return ^(void(^swpLocationSuccess)(SwpLocation *swpLocation, NSArray *locations)) {
-        _swpLocationSuccess = swpLocationSuccess;
+        [self swpLocationSuccess:swpLocationSuccess];
         return self;
     };
 }
@@ -372,7 +372,7 @@
  */
 - (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSError * _Nonnull)))swpLocationErrorChain {
     return ^(void(^swpLocationError)(SwpLocation *swpLocation, NSError *error)) {
-        _swpLocationError = swpLocationError;
+        [self swpLocationError:swpLocationError];
         return self;
     };
 }
@@ -387,7 +387,6 @@
  *  @param  swpLocationReverseGeocode   swpLocationReverseGeocode
  */
 - (void)swpLocationReverseGeocode:(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull, NSError * _Nonnull))swpLocationReverseGeocode {
-    
     _swpLocationReverseGeocode = swpLocationReverseGeocode;
 }
 
@@ -399,12 +398,10 @@
  */
 - (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain {
     return ^(void(^swpLocationReverseGeocode)(SwpLocation *swpLocation, SwpLocationModel *model, NSError *error)) {
-        _swpLocationReverseGeocode = swpLocationReverseGeocode;
+        [self swpLocationReverseGeocode:swpLocationReverseGeocode];
         return self;
     };
 }
-
-
 
 
 #pragma mark - Init Methods

@@ -1,1 +1,1 @@
-../../../../../SwpLocation/Others/Tools/SwpLocationTools.h
+../../../../../SwpLocation/Class/Others/Tools/SwpLocationTools.h

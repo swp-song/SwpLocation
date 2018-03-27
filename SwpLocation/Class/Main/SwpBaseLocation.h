@@ -22,6 +22,24 @@ NS_ASSUME_NONNULL_BEGIN
  */
 + (instancetype)shareInstance;
 
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationInfo ( 获取 SwpLocation 信息 )
+ *
+ *  @return NSDictionary
+ */
+- (NSDictionary *)swpLocationInfo;
+
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationVersion  ( 获取 SwpLocation 版本号 )
+ *
+ *  @return NSString
+ */
+- (NSString *)swpLocationVersion;
+
 
 @end
 NS_ASSUME_NONNULL_END

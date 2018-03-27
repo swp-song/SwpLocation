@@ -8,7 +8,6 @@
 
 #import "SwpLocationCoordinateTransformation.h"
 
-
 static const double SWP_AA      = 6378245.0;
 static const double SWP_EE      = 0.00669342162296594323;
 static const double SWP_M_PI    = M_PI * 3000.0 / 180.0;

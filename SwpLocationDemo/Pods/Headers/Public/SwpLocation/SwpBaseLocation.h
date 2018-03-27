@@ -1,1 +1,1 @@
-../../../../../SwpLocation/Main/SwpBaseLocation.h
+../../../../../SwpLocation/Class/Main/SwpBaseLocation.h

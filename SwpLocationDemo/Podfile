@@ -4,23 +4,12 @@ project 'SwpLocationDemo.xcodeproj'
 source 'https://github.com/CocoaPods/Specs.git'
 platform :ios, '8.0'
 
-
 target 'SwpLocationDemo' do
   # Uncomment the next line if you're using Swift or would like to use dynamic frameworks
   # use_frameworks!
 
-
   # Pods for SwpLocationDemo
-  
   pod 'SwpLocation', :path => '../'
   
-
-  target 'SwpLocationDemoTests' do
-    inherit! :search_paths
-    # Pods for testing
-    
-    pod 'SwpLocation', :path => '../'
-    
-  end
 
 end

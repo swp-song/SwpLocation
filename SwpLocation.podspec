@@ -15,22 +15,22 @@ Pod::Spec.new do |s|
   #  summary should be tweet-length, and the description more in depth.
   #
 
-  s.name         = "SwpLocation"
-  s.version      = "1.0.6"
-  s.summary      = "iOS，系统定位封装"
+  s.name          = 'SwpLocation'
+  s.version       = '1.1.0'
+  s.summary       = ' iOS，系统定位封装 '
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
   #   * Try to keep it short, snappy and to the point.
   #   * Write the description between the DESC delimiters below.
   #   * Finally, don't worry about the indent, CocoaPods strips it!
-  s.description  = <<-DESC
-  TODO: iOS，系统定位封装
-                   DESC
 
-  s.homepage     = "https://github.com/swp-song/SwpLocation"
+  s.description      = <<-DESC
+TODO: iOS，系统定位封装
+                       DESC
+
+  s.homepage         = 'https://github.com/swp-song/SwpLocation'
   # s.screenshots  = "www.example.com/screenshots_1.gif", "www.example.com/screenshots_2.gif"
-
 
   # ―――  Spec License  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -38,10 +38,7 @@ Pod::Spec.new do |s|
   #  CocoaPods will detect a license file if there is a named LICENSE*
   #  Popular ones are 'MIT', 'BSD' and 'Apache License, Version 2.0'.
   #
-
-  s.license      = { :type => "MIT", :file => "LICENSE" }
-  # s.license      = { :type => "MIT", :file => "FILE_LICENSE" }
-
+  s.license          = { :type => 'MIT', :file => 'LICENSE' }
 
   # ――― Author Metadata  ――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
   #
@@ -53,9 +50,10 @@ Pod::Spec.new do |s|
   #  profile URL.
   #
 
-  s.author             = { "swp_song" => "396587868@qq.com" }
+  s.author           = { 'swp-song' => '396587868@qq.com' }
   # Or just: s.author    = " swp_song"
   # s.authors            = { " swp_song" => "email@address.com" }
+
   # s.social_media_url   = "http://twitter.com/ swp_song"
 
   # ――― Platform Specifics ――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -68,7 +66,7 @@ Pod::Spec.new do |s|
   # s.platform     = :ios, "5.0"
 
   #  When using multiple platforms
-  s.ios.deployment_target = "8.0"
+  s.ios.deployment_target = '8.0'
   # s.osx.deployment_target = "10.7"
   # s.watchos.deployment_target = "2.0"
   # s.tvos.deployment_target = "9.0"
@@ -79,8 +77,11 @@ Pod::Spec.new do |s|
   #  Specify the location from where the source should be retrieved.
   #  Supports git, hg, bzr, svn and HTTP.
   #
+  s.source           = { :git => 'https://github.com/swp-song/SwpLocation.git', :tag => s.version.to_s }
+  # s.social_media_url = 'https://twitter.com/<TWITTER_USERNAME>'
 
-  s.source       = { :git => "https://github.com/swp-song/SwpLocation.git", :tag => s.version }
+
+
 
 
   # ――― Source Code ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -91,10 +92,9 @@ Pod::Spec.new do |s|
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files  = "SwpLocation", "SwpLocation/**/*.{h,m}"
-  # s.exclude_files = "Classes/Exclude"
-
-  # s.public_header_files = "Classes/**/*.h"
+  s.source_files        = 'SwpLocation', 'SwpLocation/**/*.{h,m}'
+  # s.exclude_files = 'SwpLocation/**/*.h'
+  s.public_header_files = 'SwpLocation/**/*.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #
@@ -105,7 +105,7 @@ Pod::Spec.new do |s|
   #  non-essential files like tests, examples and documentation.
   #
 
-  # s.resource  = "icon.png"
+  s.resource      = 'SwpLocation/Resources/SwpLocation.bundle'
   # s.resources = "Resources/*.png"
 
   # s.preserve_paths = "FilesToSave", "MoreFilesToSave"
@@ -118,7 +118,7 @@ Pod::Spec.new do |s|
   #
 
   # s.framework  = "SomeFramework"
-  s.frameworks = "Foundation", "CoreLocation"
+  s.frameworks = 'Foundation', 'CoreLocation'
 
   # s.library   = "iconv"
   # s.libraries = "iconv", "xml2"

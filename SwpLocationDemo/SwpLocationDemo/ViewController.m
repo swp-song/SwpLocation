@@ -2,16 +2,16 @@
 //  ViewController.m
 //  SwpLocationDemo
 //
-//  Created by swp_song on 2017/11/1.
-//  Copyright © 2017年 swp_song. All rights reserved.
+//  Created by swp_song on 2018/3/27.
+//  Copyright © 2018年 swp_song. All rights reserved.
 //
 
 #import "ViewController.h"
 
-
 #import <SwpLocation/SwpLocationHeader.h>
 
 @interface ViewController ()
+
 
 @property (nonatomic, weak) IBOutlet UILabel *locationAddressView;
 @property (nonatomic, weak) IBOutlet UILabel *locationGCJ02View;
@@ -21,20 +21,24 @@
 
 @implementation ViewController
 
-//  Privacy - Location Always and When In Use Usage Description : 我们需要通过您的地理位置信息获取您周边的相关数据
-//  Privacy - Location Always Usage Description                 : 我们需要通过您的地理位置信息获取您周边的相关数据
-//  Privacy - Location When In Use Usage Description            : 使用应用期间
-
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
     
+    //  Privacy - Location Always and When In Use Usage Description : 我们需要通过您的地理位置信息获取您周边的相关数据
+    //  Privacy - Location Always Usage Description                 : 我们需要通过您的地理位置信息获取您周边的相关数据
+    //  Privacy - Location When In Use Usage Description            : 使用应用期间
+    
+    // Do any additional setup after loading the view, typically from a nib.
     [self.locationAddressView sizeToFit];
     
     [self.locationGCJ02View sizeToFit];
     
     [self.locationBD09View sizeToFit];
     
+    
+    
+    NSLog(@"SwpLocationInfo     = %@", SwpLocation.shareInstanceInit().swpLocationInfo);
+    NSLog(@"SwpLocationVersion  = %@", SwpLocation.shareInstanceInit().swpLocationVersion);
     
     __weak typeof(self) weakSelf = self;
     //  初始化
@@ -63,8 +67,6 @@
         NSLog(@"%@", BD09);
     });
     
-    //  http://api.map.baidu.com/lbsapi/getpoint/index.html 百度坐标拾取器，翻查坐标
-    //  http://lbs.amap.com/console/show/picker             高德坐标拾取器，按坐标搜索
 }
 
 
