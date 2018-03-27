@@ -37,6 +37,18 @@ SwpLocationCoordinate2D SwpLocationCoordinate2DMake(SwpLocationDegrees2D latitud
 
 @interface SwpLocationCoordinateTransformation : NSObject
 
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationVerifyThatInChinaWithLatitude:longitude: ( 验证坐标是否在中国 )
+ *
+ *  @param  latitude    latitude
+ *
+ *  @param  longitude   longitude
+ *
+ *  @return BOOL         YES = in In China, NO = Not In China
+ */
++ (BOOL)swpLocationVerifyThatInChinaWithLatitude:(SwpLocationDegrees2D)latitude longitude:(SwpLocationDegrees2D)longitude;
 
 /**
  *  @author swp_song

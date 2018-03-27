@@ -11,11 +11,7 @@
 NS_ASSUME_NONNULL_BEGIN
 
 
-
-
-
 @interface SwpLocation : SwpBaseLocation
-
 
 /**
  *  @author swp_song
@@ -85,7 +81,7 @@ NS_ASSUME_NONNULL_BEGIN
 - (__kindof SwpLocation * _Nonnull (^)(id<SwpLocationDelegate> _Nullable))delegate;
 
 
-#pragma mark -
+#pragma mark - SwpLocation Block Methods
 /**
  *  @author swp_song
  *

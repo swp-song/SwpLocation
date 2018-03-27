@@ -10,20 +10,26 @@
 
 @import UIKit;
 
-#import "SwpLocationModel.h"
+/* ---------------------- Tool       ---------------------- */
 #import "SwpLocationTools.h"
 #import "SwpLocationCoordinateTransformation.h"
+/* ---------------------- Tool       ---------------------- */
+
+/* ---------------------- Model      ---------------------- */
+#import "SwpLocationModel.h"
+/* ---------------------- Model      ---------------------- */
+
 
 @interface SwpLocation() <CLLocationManagerDelegate>
 
 #pragma mark - Data Propertys
+/* ---------------------- Data Property  ---------------------- */
 /* 定位信息管理者 */
 @property (nonatomic, strong) CLLocationManager *locationManager;
 /* 地理编码对象 */
 @property (nonatomic, strong) CLGeocoder        *geocoder;
-
+/* 定位数据模型 */
 @property (nonatomic, assign) SwpLocationMode   swpLocationMode_;
-
 /* SwpLocation 回调方法，获取定位权限，定位权限发生改变时调用  */
 @property (nonatomic, copy, setter = swpLocationDidChangeAuthorizationStatus:) void(^swpLocationDidChangeAuthorizationStatus)(SwpLocation *, SwpLocationAuthorizedStatus);
 /* SwpLocation 回调方法，定位成功调用  */
@@ -32,7 +38,7 @@
 @property (nonatomic, copy, setter = swpLocationReverseGeocode:) void(^swpLocationReverseGeocode)(SwpLocation *, SwpLocationModel *, NSError *);
 /* SwpLocation 回调方法，反地理编码调用  */
 @property (nonatomic, copy, setter = swpLocationError:) void(^swpLocationError)(SwpLocation *, NSError *);
-
+/* ---------------------- Data Property  ---------------------- */
 
 @end
 
@@ -303,8 +309,7 @@
     };
 }
 
-#pragma makr -
-
+#pragma mark - SwpLocation Block Methods
 /**
  *  @author swp_song
  *

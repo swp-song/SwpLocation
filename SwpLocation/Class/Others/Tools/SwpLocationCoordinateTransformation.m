@@ -17,6 +17,43 @@ static const double SWP_M_PI    = M_PI * 3000.0 / 180.0;
 /**
  *  @author swp_song
  *
+ *  @brief  SwpDownloadProgressMake ( 快速初始化 )
+ *
+ *  @param   latitude   latitude
+ *
+ *  @param  longitude   longitude
+ *
+ *  @return SwpLocationCoordinate2D
+ */
+SwpLocationCoordinate2D SwpLocationCoordinate2DMake(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+    SwpLocationCoordinate2D swpLocationCoordinate2D;
+    swpLocationCoordinate2D.latitude    = latitude;
+    swpLocationCoordinate2D.longitude   = longitude;
+    return swpLocationCoordinate2D;
+}
+
+/**
+ *  @author swp_song
+ *
+ *  @brief  swpLocationVerifyThatInChinaWithLatitude:longitude: ( 验证坐标是否在中国 )
+ *
+ *  @param  latitude    latitude
+ *
+ *  @param  longitude   longitude
+ *
+ *  @return BOOL         YES = in In China, NO = Not In China
+ */
++ (BOOL)swpLocationVerifyThatInChinaWithLatitude:(SwpLocationDegrees2D)latitude longitude:(SwpLocationDegrees2D)longitude {
+    
+    // not in China
+    if (longitude < 72.004 ||longitude > 137.8347 || latitude < 0.8293 ||latitude > 55.8271) return NO;
+    return YES;
+}
+
+
+/**
+ *  @author swp_song
+ *
  *  @brief  swpLocation_GCJ_02_Transformation_BD_09:longitude:  ( 火星坐标系 (GCJ-02) -> 百度坐标系 (BD-09) )
  *
  *  @param  latitude    latitude
@@ -69,7 +106,7 @@ static const double SWP_M_PI    = M_PI * 3000.0 / 180.0;
  */
 + (SwpLocationCoordinate2D)swpLocationWGS84ToGCJ02:(SwpLocationDegrees2D)latitude longitude:(SwpLocationDegrees2D)longitude {
     
-    if ([self.class verifyThatInChina:latitude longitude:longitude]) return SwpLocationCoordinate2DMake(latitude, longitude);
+    if (![self.class swpLocationVerifyThatInChinaWithLatitude:latitude longitude:longitude]) return SwpLocationCoordinate2DMake(latitude, longitude);
     
     SwpLocationDegrees2D wgLat    = latitude;
     SwpLocationDegrees2D wgLon    = longitude;
@@ -85,24 +122,10 @@ static const double SWP_M_PI    = M_PI * 3000.0 / 180.0;
 }
 
 
-/**
- *  @author swp_song
- *
- *  @brief  verifyThatInChina:  ( 验证坐标是否在天朝 )
- *
- *  @param  latitude    latitude
- *
- *  @param  longitude    longitude
- *
- *  @return BOOL
- */
-+ (BOOL)verifyThatInChina:(SwpLocationDegrees2D)latitude longitude:(SwpLocationDegrees2D)longitude {
-    if (longitude < 72.004 || longitude > 137.8347) return YES;
-    if (latitude < 0.8293 || latitude > 55.8271) return YES;
-    return NO;
-}
 
 
+
+#pragma mark - Private  Methods
 /**
  *  @author swp_song
  *
@@ -142,23 +165,7 @@ static const double SWP_M_PI    = M_PI * 3000.0 / 180.0;
 }
 
 
-/**
- *  @author swp_song
- *
- *  @brief  SwpDownloadProgressMake ( 快速初始化 )
- *
- *  @param   latitude   latitude
- *
- *  @param  longitude   longitude
- *
- *  @return SwpLocationCoordinate2D
- */
-SwpLocationCoordinate2D SwpLocationCoordinate2DMake(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
-    SwpLocationCoordinate2D swpLocationCoordinate2D;
-    swpLocationCoordinate2D.latitude    = latitude;
-    swpLocationCoordinate2D.longitude   = longitude;
-    return swpLocationCoordinate2D;
-}
+
 
 
 @end

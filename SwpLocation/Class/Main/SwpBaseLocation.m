@@ -9,11 +9,6 @@
 #import "SwpBaseLocation.h"
 
 
-
-@interface SwpBaseLocation()
-
-@end
-
 static id swpBaseLocation_;
 
 @implementation SwpBaseLocation
