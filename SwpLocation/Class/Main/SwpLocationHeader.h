@@ -12,5 +12,6 @@
     #import "SwpLocation.h"
     #import "SwpLocationModel.h"
     #import "SwpLocationDelegate.h"
+    #import "SwpLocationCoordinateUtils.h"
 
 #endif /* SwpLocationHeader_h */

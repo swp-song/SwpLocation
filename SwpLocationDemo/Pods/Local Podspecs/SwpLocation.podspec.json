@@ -1,6 +1,6 @@
 {
   "name": "SwpLocation",
-  "version": "1.1.1",
+  "version": "1.2.0",
   "summary": "iOS，系统定位封装",
   "description": "TODO: iOS，系统定位封装",
   "homepage": "https://github.com/swp-song/SwpLocation",
@@ -16,7 +16,7 @@
   },
   "source": {
     "git": "https://github.com/swp-song/SwpLocation.git",
-    "tag": "1.1.1"
+    "tag": "1.2.0"
   },
   "source_files": [
     "SwpLocation",

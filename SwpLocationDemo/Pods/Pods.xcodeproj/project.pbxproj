@@ -7,25 +7,25 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		0ACE8BBE3643031779ACDE24050F8266 /* SwpLocationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = C3B0E23BD135B09B6D031DE5193AA148 /* SwpLocationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1140C117CFAAB010A35CBF1A6FD12C7D /* SwpLocationCoordinateTransformation.m in Sources */ = {isa = PBXBuildFile; fileRef = 7B8B5A32F72DACC05BF5862C694D34FF /* SwpLocationCoordinateTransformation.m */; };
-		1393761F392F2D8C6986565C6B0C0670 /* SwpLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 755C434D9836B88EDB92B70EDD8493D2 /* SwpLocation-dummy.m */; };
-		1627A8D27F9D3632090ED2AA16E24C37 /* SwpLocationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 6626943144F2DE3FEB65DD4B6F9946FD /* SwpLocationTools.m */; };
+		01A2D1319F2D280F19C7D1B4DDB02C31 /* SwpLocationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE49FB687F3B5A364D39142D859A6F4 /* SwpLocationType.m */; };
+		0227ACBFA428B333D1C263062F4885B3 /* SwpLocationCoordinateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C54873470896B217B88648F6856EF7A9 /* SwpLocationCoordinateUtils.m */; };
+		042EE721A3B21BEC55A4A76C885D4AA9 /* SwpLocationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A787D17CF152DD94AD88642B9FDD55 /* SwpLocationTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14755F61FA60947BF2C72B9260D1964A /* SwpLocationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2C6EA6337EFEDB8C08277DA713E0FA /* SwpLocationHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1F646D7DF36EFC9F6A658E4A7E845058 /* SwpLocationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 029A5BC222046515B285A50527F6DB52 /* SwpLocationTools.m */; };
+		2133B03B3AD76A973FBF175457C4A882 /* SwpBaseLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF442FF4356F66759B45BF5AF61654A1 /* SwpBaseLocation.m */; };
+		2A954A0B8BD30337DFBC11EB85AF9E57 /* SwpLocationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5986BF17C82BF1F9223DF8D3547BB9C9 /* SwpLocationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		3CBE4DBB0782EFA13D30FD1EF27E4230 /* SwpLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FBB1ED2153119BCBF99189F522CE7 /* SwpLocation.m */; };
 		3D76B59F62FECC11EF45BD3D16F00F58 /* Pods-SwpLocationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE594879402E8760F801570AF813FAE /* Pods-SwpLocationDemo-dummy.m */; };
-		4FA8CDC20A1185BD0ACDDC97247C627C /* SwpLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 2E3B2E4C099909BF7CF3804CCA13F3E3 /* SwpLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		5305C4EFE20530215453E9C3E7787E4D /* SwpLocationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = E715325A5EEF619A6A6EE13236A6304C /* SwpLocationTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		584FCA1CE876C60A6F2ADF4576BEFDBF /* SwpLocationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = 2CAFC3975D97FE000975EE04FF0911AA /* SwpLocationHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		7094890438C45B17A35B3CD783E2527A /* SwpLocationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 3B0A1F8D80AC2114B5EC069BCA35CFEC /* SwpLocationType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		71E652D09529B7F63E9296755E4D935A /* SwpLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFE350688997A3CD270078E91E45439 /* SwpLocationModel.m */; };
+		875C1E0483CA7BCB8A9D9370AB553860 /* SwpLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E76F755E22303133264BBB9C7C160ED /* SwpLocationModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		8B81BD7764A8F53D3D6DA206824AAB73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
-		98393B98F973BEC7FA1A08295FB9F7F5 /* SwpLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 71EF2A14FCEFB2DDE6E49E8BF75E6D92 /* SwpLocationModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9BA9BF06E3AC5F168B7CBE05E768DD52 /* SwpLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = FDE556A91BBCE761F65F0773F9BF772F /* SwpLocation.m */; };
+		8CF22FB6F483FEF6F1B0D9B9374C0187 /* SwpLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B46226CD3CF09E94D10D6F9126FC1 /* SwpLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9C6A81C4A27E0C80026E9E9B02D7BBF8 /* SwpLocationCoordinateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB8E43AB3AFE24111A2E5AE6DADC171 /* SwpLocationCoordinateUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		9D49B510D240CC9C3B5437494313F937 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */; };
-		C19B489FF27FC71DB4255D0A0BF5F68F /* SwpBaseLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 1034C1372D983F84314B6A73EFFD0FC5 /* SwpBaseLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		C56C7C1895CC78DE3B734B476D8E9EB1 /* SwpLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = 0906C64FDE69AAD8D9960A7A1DDC88C6 /* SwpLocationModel.m */; };
-		C99C77A508AC18CBBB44C87FF5051294 /* SwpLocationCoordinateTransformation.h in Headers */ = {isa = PBXBuildFile; fileRef = 62A71AE8DFCF68DECBF946F1F04E4D45 /* SwpLocationCoordinateTransformation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		DE08992B6BCF2B59848B9AC6677AB58B /* SwpBaseLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = E531BA534789F972A95BA7BED3EC0A2D /* SwpBaseLocation.m */; };
-		E4556C68B3E213E93AB38F1DF935ED55 /* SwpLocationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6E6E916ACCC1C716E071DF6E1E84CA57 /* SwpLocationType.m */; };
+		C1DB32D96BEECCFDAA2F90013BAE82C0 /* SwpBaseLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 196EE127F67C166B3CCBCF35F4B0F438 /* SwpBaseLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		E2897745EBA58CEC30E4E209850A2B1C /* SwpLocationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DADB6F54E83FB036841138DBF69718 /* SwpLocationType.h */; settings = {ATTRIBUTES = (Project, ); }; };
 		F2DF0C1E1458BEB2CC917852C3C38F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
+		F6704EF14B812C3144DF4FAF7861A126 /* SwpLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F7A8FE8EEDED2C6CACB9D590B0DA7 /* SwpLocation-dummy.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -39,39 +39,39 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		029A5BC222046515B285A50527F6DB52 /* SwpLocationTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationTools.m; sourceTree = "<group>"; };
 		042A5B346E858DEB9E95754C33199FA7 /* libPods-SwpLocationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwpLocationDemo.a"; path = "libPods-SwpLocationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
-		0906C64FDE69AAD8D9960A7A1DDC88C6 /* SwpLocationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationModel.m; sourceTree = "<group>"; };
+		072AED00F1EE65434101D5963B3C17D1 /* SwpLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwpLocation-prefix.pch"; sourceTree = "<group>"; };
+		08A787D17CF152DD94AD88642B9FDD55 /* SwpLocationTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationTools.h; sourceTree = "<group>"; };
 		0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
 		0F306516DD1C802CDA6EE0749944F389 /* Pods-SwpLocationDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwpLocationDemo-acknowledgements.plist"; sourceTree = "<group>"; };
-		1034C1372D983F84314B6A73EFFD0FC5 /* SwpBaseLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpBaseLocation.h; sourceTree = "<group>"; };
-		247CFC05387D1454DFB64FFCD6256AE3 /* SwpLocation.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SwpLocation.bundle; path = SwpLocation/Resources/SwpLocation.bundle; sourceTree = "<group>"; };
-		2CAFC3975D97FE000975EE04FF0911AA /* SwpLocationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationHeader.h; sourceTree = "<group>"; };
-		2E3B2E4C099909BF7CF3804CCA13F3E3 /* SwpLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocation.h; sourceTree = "<group>"; };
+		17DADB6F54E83FB036841138DBF69718 /* SwpLocationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationType.h; sourceTree = "<group>"; };
+		196EE127F67C166B3CCBCF35F4B0F438 /* SwpBaseLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpBaseLocation.h; sourceTree = "<group>"; };
+		2FB8E43AB3AFE24111A2E5AE6DADC171 /* SwpLocationCoordinateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationCoordinateUtils.h; sourceTree = "<group>"; };
 		30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
-		3B0A1F8D80AC2114B5EC069BCA35CFEC /* SwpLocationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationType.h; sourceTree = "<group>"; };
 		3DE594879402E8760F801570AF813FAE /* Pods-SwpLocationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwpLocationDemo-dummy.m"; sourceTree = "<group>"; };
-		4E48459B62CCD8031B1012976C6689B9 /* SwpLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwpLocation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
-		62A71AE8DFCF68DECBF946F1F04E4D45 /* SwpLocationCoordinateTransformation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationCoordinateTransformation.h; sourceTree = "<group>"; };
-		6626943144F2DE3FEB65DD4B6F9946FD /* SwpLocationTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationTools.m; sourceTree = "<group>"; };
-		6D4092CE27D0E6B6DBC1D5B1A2A16376 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
-		6E6E916ACCC1C716E071DF6E1E84CA57 /* SwpLocationType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationType.m; sourceTree = "<group>"; };
-		71EF2A14FCEFB2DDE6E49E8BF75E6D92 /* SwpLocationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationModel.h; sourceTree = "<group>"; };
-		7222EC4FA817C3981F11CC03EBA67CC4 /* SwpLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwpLocation.xcconfig; sourceTree = "<group>"; };
-		755C434D9836B88EDB92B70EDD8493D2 /* SwpLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwpLocation-dummy.m"; sourceTree = "<group>"; };
+		5986BF17C82BF1F9223DF8D3547BB9C9 /* SwpLocationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationDelegate.h; sourceTree = "<group>"; };
+		6C4FBB1ED2153119BCBF99189F522CE7 /* SwpLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocation.m; sourceTree = "<group>"; };
+		6E76F755E22303133264BBB9C7C160ED /* SwpLocationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationModel.h; sourceTree = "<group>"; };
+		6EE49FB687F3B5A364D39142D859A6F4 /* SwpLocationType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationType.m; sourceTree = "<group>"; };
 		77934D047DD923AA46138C674BF516A5 /* Pods-SwpLocationDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwpLocationDemo-resources.sh"; sourceTree = "<group>"; };
-		7B8B5A32F72DACC05BF5862C694D34FF /* SwpLocationCoordinateTransformation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationCoordinateTransformation.m; sourceTree = "<group>"; };
-		7C55F08C98801D7912ECCB3200A1E01C /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		885B37FC81990F546FB221B6D4AFF164 /* SwpLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwpLocation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		944DE2C6117AFEA31404C324954E3885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		9F3943D8990B3D1F6A29ED7F3D6E6CE6 /* SwpLocation.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SwpLocation.bundle; path = SwpLocation/Resources/SwpLocation.bundle; sourceTree = "<group>"; };
 		9FE02B9D6F976FB3DDAEE83FBD2BB74E /* libSwpLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwpLocation.a; path = libSwpLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
-		BB0DF42D7F405865B46D67BAA4D6030C /* SwpLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwpLocation-prefix.pch"; sourceTree = "<group>"; };
+		ABFE350688997A3CD270078E91E45439 /* SwpLocationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationModel.m; sourceTree = "<group>"; };
+		B05EB5551EF2951BEB44CF216984DBA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		BD2C6EA6337EFEDB8C08277DA713E0FA /* SwpLocationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationHeader.h; sourceTree = "<group>"; };
 		C3658A48256DBF4104C2AF49DB55FD13 /* Pods-SwpLocationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwpLocationDemo-frameworks.sh"; sourceTree = "<group>"; };
-		C3B0E23BD135B09B6D031DE5193AA148 /* SwpLocationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationDelegate.h; sourceTree = "<group>"; };
+		C54873470896B217B88648F6856EF7A9 /* SwpLocationCoordinateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationCoordinateUtils.m; sourceTree = "<group>"; };
+		CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwpLocation.xcconfig; sourceTree = "<group>"; };
+		CF442FF4356F66759B45BF5AF61654A1 /* SwpBaseLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpBaseLocation.m; sourceTree = "<group>"; };
+		D11F7A8FE8EEDED2C6CACB9D590B0DA7 /* SwpLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwpLocation-dummy.m"; sourceTree = "<group>"; };
+		D38B46226CD3CF09E94D10D6F9126FC1 /* SwpLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocation.h; sourceTree = "<group>"; };
 		D3BC766136E30A33A8C763ADF9AF9834 /* Pods-SwpLocationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwpLocationDemo.release.xcconfig"; sourceTree = "<group>"; };
-		E531BA534789F972A95BA7BED3EC0A2D /* SwpBaseLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpBaseLocation.m; sourceTree = "<group>"; };
-		E715325A5EEF619A6A6EE13236A6304C /* SwpLocationTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationTools.h; sourceTree = "<group>"; };
 		EC7E0DAFF881A03DDD33E20348EBC3A8 /* Pods-SwpLocationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwpLocationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6A8C6345833B53C2CB485B8A103546A /* Pods-SwpLocationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwpLocationDemo.debug.xcconfig"; sourceTree = "<group>"; };
-		FDE556A91BBCE761F65F0773F9BF772F /* SwpLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocation.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -95,28 +95,12 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
-		04619025F6595EDA523BDD686374EF2A /* Support Files */ = {
+		39DC366768CAAF991D10A2239D5389C8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
-				7222EC4FA817C3981F11CC03EBA67CC4 /* SwpLocation.xcconfig */,
-				755C434D9836B88EDB92B70EDD8493D2 /* SwpLocation-dummy.m */,
-				BB0DF42D7F405865B46D67BAA4D6030C /* SwpLocation-prefix.pch */,
+				9F3943D8990B3D1F6A29ED7F3D6E6CE6 /* SwpLocation.bundle */,
 			);
-			name = "Support Files";
-			path = "SwpLocationDemo/Pods/Target Support Files/SwpLocation";
-			sourceTree = "<group>";
-		};
-		2AFAFE9551506D292AC2FB6D744105AC /* SwpLocation */ = {
-			isa = PBXGroup;
-			children = (
-				A0B9ADEFACE29A4D2C70AAFBEDAABF2B /* Main */,
-				697FC3A2C275D35E6B55EFDAED5CF5FA /* Others */,
-				9C29D6C7482AF8E31ABF493CF10BF718 /* Pod */,
-				AA951B62A891D3F018109FD272A4DB30 /* Resources */,
-				04619025F6595EDA523BDD686374EF2A /* Support Files */,
-			);
-			name = SwpLocation;
-			path = ../..;
+			name = Resources;
 			sourceTree = "<group>";
 		};
 		42A7AE4B569341376A2FDBC8CCC834A6 /* Targets Support Files */ = {
@@ -135,15 +119,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
-		605EFBB09E59E6AC38EF3EA9D05CB6E5 /* DataTypes */ = {
+		48B02F33EAADFF8C3E485290272EDC65 /* Others */ = {
 			isa = PBXGroup;
 			children = (
-				C3B0E23BD135B09B6D031DE5193AA148 /* SwpLocationDelegate.h */,
-				3B0A1F8D80AC2114B5EC069BCA35CFEC /* SwpLocationType.h */,
-				6E6E916ACCC1C716E071DF6E1E84CA57 /* SwpLocationType.m */,
+				A0FC78A7B38506CC835E511487F7AAF2 /* DataTypes */,
+				FB410A992BA44846739969924565F33A /* Models */,
+				67119A5CACACDE4A93006800F3745DE4 /* Tools */,
 			);
-			name = DataTypes;
-			path = DataTypes;
+			name = Others;
+			path = SwpLocation/Class/Others;
 			sourceTree = "<group>";
 		};
 		6609C1ACB1EC85EB04C3EEA193A845D2 /* Pods-SwpLocationDemo */ = {
@@ -161,25 +145,27 @@
 			path = "Target Support Files/Pods-SwpLocationDemo";
 			sourceTree = "<group>";
 		};
-		697FC3A2C275D35E6B55EFDAED5CF5FA /* Others */ = {
+		67119A5CACACDE4A93006800F3745DE4 /* Tools */ = {
 			isa = PBXGroup;
 			children = (
-				605EFBB09E59E6AC38EF3EA9D05CB6E5 /* DataTypes */,
-				75791265C59239312A54BBD9EDA36499 /* Models */,
-				A526E7E22F416C05B1250B59C5F0FBB7 /* Tools */,
+				08A787D17CF152DD94AD88642B9FDD55 /* SwpLocationTools.h */,
+				029A5BC222046515B285A50527F6DB52 /* SwpLocationTools.m */,
 			);
-			name = Others;
-			path = SwpLocation/Class/Others;
+			name = Tools;
+			path = Tools;
 			sourceTree = "<group>";
 		};
-		75791265C59239312A54BBD9EDA36499 /* Models */ = {
+		7D810D29A7010CBBC2EAD50D639730F5 /* SwpLocation */ = {
 			isa = PBXGroup;
 			children = (
-				71EF2A14FCEFB2DDE6E49E8BF75E6D92 /* SwpLocationModel.h */,
-				0906C64FDE69AAD8D9960A7A1DDC88C6 /* SwpLocationModel.m */,
+				A41965849D06CF36EE1FB711E871140D /* Main */,
+				48B02F33EAADFF8C3E485290272EDC65 /* Others */,
+				8DDC643892556CCC4F15D1A2A68886E9 /* Pod */,
+				39DC366768CAAF991D10A2239D5389C8 /* Resources */,
+				9458FE2F72872BC815432CB5325D8E7B /* Support Files */,
 			);
-			name = Models;
-			path = Models;
+			name = SwpLocation;
+			path = ../..;
 			sourceTree = "<group>";
 		};
 		7DB346D0F39D3F0E887471402A8071AB = {
@@ -193,6 +179,27 @@
 			);
 			sourceTree = "<group>";
 		};
+		8DDC643892556CCC4F15D1A2A68886E9 /* Pod */ = {
+			isa = PBXGroup;
+			children = (
+				944DE2C6117AFEA31404C324954E3885 /* LICENSE */,
+				B05EB5551EF2951BEB44CF216984DBA2 /* README.md */,
+				885B37FC81990F546FB221B6D4AFF164 /* SwpLocation.podspec */,
+			);
+			name = Pod;
+			sourceTree = "<group>";
+		};
+		9458FE2F72872BC815432CB5325D8E7B /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */,
+				D11F7A8FE8EEDED2C6CACB9D590B0DA7 /* SwpLocation-dummy.m */,
+				072AED00F1EE65434101D5963B3C17D1 /* SwpLocation-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "SwpLocationDemo/Pods/Target Support Files/SwpLocation";
+			sourceTree = "<group>";
+		};
 		9A76AA2B09606C89BF6282115B95ADE9 /* Products */ = {
 			isa = PBXGroup;
 			children = (
@@ -202,53 +209,36 @@
 			name = Products;
 			sourceTree = "<group>";
 		};
-		9C29D6C7482AF8E31ABF493CF10BF718 /* Pod */ = {
+		A0FC78A7B38506CC835E511487F7AAF2 /* DataTypes */ = {
 			isa = PBXGroup;
 			children = (
-				7C55F08C98801D7912ECCB3200A1E01C /* LICENSE */,
-				6D4092CE27D0E6B6DBC1D5B1A2A16376 /* README.md */,
-				4E48459B62CCD8031B1012976C6689B9 /* SwpLocation.podspec */,
+				17DADB6F54E83FB036841138DBF69718 /* SwpLocationType.h */,
+				6EE49FB687F3B5A364D39142D859A6F4 /* SwpLocationType.m */,
 			);
-			name = Pod;
+			name = DataTypes;
+			path = DataTypes;
 			sourceTree = "<group>";
 		};
-		A0B9ADEFACE29A4D2C70AAFBEDAABF2B /* Main */ = {
+		A41965849D06CF36EE1FB711E871140D /* Main */ = {
 			isa = PBXGroup;
 			children = (
-				1034C1372D983F84314B6A73EFFD0FC5 /* SwpBaseLocation.h */,
-				E531BA534789F972A95BA7BED3EC0A2D /* SwpBaseLocation.m */,
-				2E3B2E4C099909BF7CF3804CCA13F3E3 /* SwpLocation.h */,
-				FDE556A91BBCE761F65F0773F9BF772F /* SwpLocation.m */,
-				2CAFC3975D97FE000975EE04FF0911AA /* SwpLocationHeader.h */,
+				196EE127F67C166B3CCBCF35F4B0F438 /* SwpBaseLocation.h */,
+				CF442FF4356F66759B45BF5AF61654A1 /* SwpBaseLocation.m */,
+				D38B46226CD3CF09E94D10D6F9126FC1 /* SwpLocation.h */,
+				6C4FBB1ED2153119BCBF99189F522CE7 /* SwpLocation.m */,
+				2FB8E43AB3AFE24111A2E5AE6DADC171 /* SwpLocationCoordinateUtils.h */,
+				C54873470896B217B88648F6856EF7A9 /* SwpLocationCoordinateUtils.m */,
+				5986BF17C82BF1F9223DF8D3547BB9C9 /* SwpLocationDelegate.h */,
+				BD2C6EA6337EFEDB8C08277DA713E0FA /* SwpLocationHeader.h */,
 			);
 			name = Main;
 			path = SwpLocation/Class/Main;
 			sourceTree = "<group>";
 		};
-		A526E7E22F416C05B1250B59C5F0FBB7 /* Tools */ = {
-			isa = PBXGroup;
-			children = (
-				62A71AE8DFCF68DECBF946F1F04E4D45 /* SwpLocationCoordinateTransformation.h */,
-				7B8B5A32F72DACC05BF5862C694D34FF /* SwpLocationCoordinateTransformation.m */,
-				E715325A5EEF619A6A6EE13236A6304C /* SwpLocationTools.h */,
-				6626943144F2DE3FEB65DD4B6F9946FD /* SwpLocationTools.m */,
-			);
-			name = Tools;
-			path = Tools;
-			sourceTree = "<group>";
-		};
-		AA951B62A891D3F018109FD272A4DB30 /* Resources */ = {
-			isa = PBXGroup;
-			children = (
-				247CFC05387D1454DFB64FFCD6256AE3 /* SwpLocation.bundle */,
-			);
-			name = Resources;
-			sourceTree = "<group>";
-		};
 		C581C1E49B1114A8FEECC28E2F1FCCFD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
-				2AFAFE9551506D292AC2FB6D744105AC /* SwpLocation */,
+				7D810D29A7010CBBC2EAD50D639730F5 /* SwpLocation */,
 			);
 			name = "Development Pods";
 			sourceTree = "<group>";
@@ -262,21 +252,31 @@
 			name = iOS;
 			sourceTree = "<group>";
 		};
+		FB410A992BA44846739969924565F33A /* Models */ = {
+			isa = PBXGroup;
+			children = (
+				6E76F755E22303133264BBB9C7C160ED /* SwpLocationModel.h */,
+				ABFE350688997A3CD270078E91E45439 /* SwpLocationModel.m */,
+			);
+			name = Models;
+			path = Models;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		DF72645A485F7A5617F25E1F0E37F7A7 /* Headers */ = {
+		F8FE210084E1359293E81EA927BAAF54 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C19B489FF27FC71DB4255D0A0BF5F68F /* SwpBaseLocation.h in Headers */,
-				4FA8CDC20A1185BD0ACDDC97247C627C /* SwpLocation.h in Headers */,
-				C99C77A508AC18CBBB44C87FF5051294 /* SwpLocationCoordinateTransformation.h in Headers */,
-				0ACE8BBE3643031779ACDE24050F8266 /* SwpLocationDelegate.h in Headers */,
-				584FCA1CE876C60A6F2ADF4576BEFDBF /* SwpLocationHeader.h in Headers */,
-				98393B98F973BEC7FA1A08295FB9F7F5 /* SwpLocationModel.h in Headers */,
-				5305C4EFE20530215453E9C3E7787E4D /* SwpLocationTools.h in Headers */,
-				7094890438C45B17A35B3CD783E2527A /* SwpLocationType.h in Headers */,
+				C1DB32D96BEECCFDAA2F90013BAE82C0 /* SwpBaseLocation.h in Headers */,
+				8CF22FB6F483FEF6F1B0D9B9374C0187 /* SwpLocation.h in Headers */,
+				9C6A81C4A27E0C80026E9E9B02D7BBF8 /* SwpLocationCoordinateUtils.h in Headers */,
+				2A954A0B8BD30337DFBC11EB85AF9E57 /* SwpLocationDelegate.h in Headers */,
+				14755F61FA60947BF2C72B9260D1964A /* SwpLocationHeader.h in Headers */,
+				875C1E0483CA7BCB8A9D9370AB553860 /* SwpLocationModel.h in Headers */,
+				042EE721A3B21BEC55A4A76C885D4AA9 /* SwpLocationTools.h in Headers */,
+				E2897745EBA58CEC30E4E209850A2B1C /* SwpLocationType.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -287,9 +287,9 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = 97B1ECBFAF2C2F6CF5E914013F238FB0 /* Build configuration list for PBXNativeTarget "SwpLocation" */;
 			buildPhases = (
-				02FBAAC47D5571BA1863D4538559EA2E /* Sources */,
+				7231AD6B8BF82126B94E0EF66EA2B242 /* Sources */,
 				DC95649AE32F4A2CA89961A2239D764C /* Frameworks */,
-				DF72645A485F7A5617F25E1F0E37F7A7 /* Headers */,
+				F8FE210084E1359293E81EA927BAAF54 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -345,17 +345,17 @@
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		02FBAAC47D5571BA1863D4538559EA2E /* Sources */ = {
+		7231AD6B8BF82126B94E0EF66EA2B242 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				DE08992B6BCF2B59848B9AC6677AB58B /* SwpBaseLocation.m in Sources */,
-				1393761F392F2D8C6986565C6B0C0670 /* SwpLocation-dummy.m in Sources */,
-				9BA9BF06E3AC5F168B7CBE05E768DD52 /* SwpLocation.m in Sources */,
-				1140C117CFAAB010A35CBF1A6FD12C7D /* SwpLocationCoordinateTransformation.m in Sources */,
-				C56C7C1895CC78DE3B734B476D8E9EB1 /* SwpLocationModel.m in Sources */,
-				1627A8D27F9D3632090ED2AA16E24C37 /* SwpLocationTools.m in Sources */,
-				E4556C68B3E213E93AB38F1DF935ED55 /* SwpLocationType.m in Sources */,
+				2133B03B3AD76A973FBF175457C4A882 /* SwpBaseLocation.m in Sources */,
+				F6704EF14B812C3144DF4FAF7861A126 /* SwpLocation-dummy.m in Sources */,
+				3CBE4DBB0782EFA13D30FD1EF27E4230 /* SwpLocation.m in Sources */,
+				0227ACBFA428B333D1C263062F4885B3 /* SwpLocationCoordinateUtils.m in Sources */,
+				71E652D09529B7F63E9296755E4D935A /* SwpLocationModel.m in Sources */,
+				1F646D7DF36EFC9F6A658E4A7E845058 /* SwpLocationTools.m in Sources */,
+				01A2D1319F2D280F19C7D1B4DDB02C31 /* SwpLocationType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -487,7 +487,7 @@
 		};
 		6786C444C12E21DE2C6AE2155A195017 /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7222EC4FA817C3981F11CC03EBA67CC4 /* SwpLocation.xcconfig */;
+			baseConfigurationReference = CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
@@ -510,7 +510,7 @@
 		};
 		CD205E4B4ABB7AF1F4CF96E5AFF928F9 /* Release */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = 7222EC4FA817C3981F11CC03EBA67CC4 /* SwpLocation.xcconfig */;
+			baseConfigurationReference = CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */;
 			buildSettings = {
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";

@@ -12,7 +12,7 @@
 
 /* ---------------------- Tool       ---------------------- */
 #import "SwpLocationTools.h"
-#import "SwpLocationCoordinateTransformation.h"
+#import "SwpLocationCoordinateUtils.h"
 /* ---------------------- Tool       ---------------------- */
 
 /* ---------------------- Model      ---------------------- */
@@ -136,7 +136,7 @@
         //  取出，火星坐标系 (GCJ-02)
         CLLocationCoordinate2D  coordinateGCJ02 = placemark.location.coordinate;
         //  坐标转换，火星坐标系 (GCJ-02) -> 百度坐标系 (BD-09)
-        SwpLocationCoordinate2D coordinateBD09  = [SwpLocationCoordinateTransformation swpLocationGCJ02ToBD09:coordinateGCJ02.latitude longitude:coordinateGCJ02.longitude];
+        SwpLocationCoordinate2D coordinateBD09  = SwpLocationCoordinateUtilsGCJ02ToBD09(coordinateGCJ02.latitude, coordinateGCJ02.longitude);
         
         //  包装解析数据
         NSDictionary *dictionary = [SwpLocationTools swpLocationToolsPackagingData:placemark latitudeGCJ02:@(coordinateGCJ02.latitude) longitudeGCJ02:@(coordinateGCJ02.longitude) latitudeBD09:@(coordinateBD09.latitude) longitudeBD09:@(coordinateBD09.longitude)];

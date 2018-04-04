@@ -44,33 +44,6 @@ static id swpBaseLocation_;
     return  swpBaseLocation_;
 }
 
-
-/**
- *  @author swp_song
- *
- *  @brief  copyWithZone:  ( Override  copyWithZone )
- *
- *  @param  zone    zone
- *
- *  @return id
- */
-+ (id)copyWithZone:(struct _NSZone *)zone {
-    return  swpBaseLocation_;
-}
-
-/**
- *  @author swp_song
- *
- *  @brief  mutableCopyWithZone:   ( Override  mutableCopyWithZone )
- *
- *  @param  zone    zone
- *
- *  @return id
- */
-+ (id)mutableCopyWithZone:(struct _NSZone *)zone {
-    return swpBaseLocation_;
-}
-
 /**
  *  @author swp_song
  *
