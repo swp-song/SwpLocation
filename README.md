@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/swp-song/SwpLocation.svg?branch=master)](https://travis-ci.org/swp-song/SwpLocation) 
 [![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) 
 [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) 
-[![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
+[![Platform](https://img.shields.io/cocoaods/p/SwpLocation.svg?style=flatp)](http://cocoapods.org/pods/SwpLocation)
 
 -------
 
@@ -72,7 +72,18 @@ SwpLocation.shareInstanceInit()
 
 > * [SwpLocation 文档](https://swp-song.com/docs/SwpLocation/)
 
+
+-------
+
+
 ### 版本记录
+
+> * 版本版本：1.2.2
+> * 更新时间：2018-04-04 17:51:54
+> * 更新内容：
+>> * 更新文档信息，Demo 信息
+
+>> -------
 
 > * 版本版本：1.2.1
 > * 更新时间：2018-04-04 17:35:56
@@ -81,12 +92,6 @@ SwpLocation.shareInstanceInit()
     
 >> -------
 
-> * 版本版本：1.2.0
-> * 更新时间：2018-04-04 16:16:59
-> * 更新内容：
->> * 坐标转换成类，新增方法坐标转换方法。
-
->> -------
 
 -------
 
