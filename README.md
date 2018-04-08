@@ -7,7 +7,7 @@
 [![Build Status](https://travis-ci.org/swp-song/SwpLocation.svg?branch=master)](https://travis-ci.org/swp-song/SwpLocation) 
 [![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) 
 [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation) 
-[![Platform](https://img.shields.io/cocoaods/p/SwpLocation.svg?style=flatp)](http://cocoapods.org/pods/SwpLocation)
+[![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
 
 -------
 
