@@ -96,7 +96,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @brief  swpLocationDidChangeAuthorizationStatusChain    ( SwpLocation 回调方法，获取定位权限，定位权限发生改变时调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^ _Nullable)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain;
+- (__kindof SwpLocation * _Nonnull (^)(void (^ _Nullable)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain;
 
 /**
  *  @author swp_song
@@ -112,7 +112,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @brief  swpLocationSuccessChain ( SwpLocation 回调方法，定位成功调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^ _Nullable)(SwpLocation * _Nonnull, NSArray * _Nonnull)))swpLocationSuccessChain;
+- (__kindof SwpLocation * _Nonnull (^)(void (^ _Nullable)(SwpLocation * _Nonnull, NSArray * _Nonnull)))swpLocationSuccessChain;
 
 /**
  *  @author swp_song
@@ -128,7 +128,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @brief  swpLocationErrorChain   ( SwpLocation 回调方法，定位失败调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^ _Nullable)(SwpLocation * _Nonnull, NSError * _Nonnull)))swpLocationErrorChain;
+- (__kindof SwpLocation * _Nonnull (^)(void (^ _Nullable)(SwpLocation * _Nonnull, NSError * _Nonnull)))swpLocationErrorChain;
 
 /**
  *  @author swp_song
@@ -144,7 +144,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @brief  swpLocationReverseGeocodeChain  ( SwpLocation 回调方法，反地理编码调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain;
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain;
 
 
 

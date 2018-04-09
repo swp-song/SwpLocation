@@ -16,8 +16,8 @@ Pod::Spec.new do |s|
   #
 
   s.name          = 'SwpLocation'
-  s.version       = '1.2.2'
-  s.summary       = ' iOS，系统定位封装 '
+  s.version       = '1.2.3'
+  s.summary       = ' iOS，系统定位封装, 坐标转换 '
 
   # This description is used to generate tags and improve search results.
   #   * Think: What does it do? Why did you write it? What is the focus?
@@ -26,7 +26,7 @@ Pod::Spec.new do |s|
   #   * Finally, don't worry about the indent, CocoaPods strips it!
 
   s.description      = <<-DESC
-TODO: iOS，系统定位封装
+TODO: iOS，系统定位封装, 坐标转换
                        DESC
 
   s.homepage         = 'https://github.com/swp-song/SwpLocation'
@@ -92,9 +92,9 @@ TODO: iOS，系统定位封装
   #  Not including the public_header_files will make all headers public.
   #
 
-  s.source_files        = 'SwpLocation', 'SwpLocation/**/*.{h,m}'
+  s.source_files        = 'SwpLocation', 'SwpLocation/Class/**/*.{h,m}'
   # s.exclude_files = 'SwpLocation/**/*.h'
-  s.public_header_files = 'SwpLocation/**/*.h'
+  s.public_header_files = 'SwpLocation/Class/**/*.h'
 
 
   # ――― Resources ―――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――――― #

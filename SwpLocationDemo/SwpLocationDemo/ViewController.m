@@ -16,25 +16,34 @@
 @property (nonatomic, weak) IBOutlet UILabel *locationAddressView;
 @property (nonatomic, weak) IBOutlet UILabel *locationGCJ02View;
 @property (nonatomic, weak) IBOutlet UILabel *locationBD09View;
+@property (nonatomic, weak) IBOutlet UILabel *locationWGS84View;
+
 
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
+    
     [super viewDidLoad];
+    // Do any additional setup after loading the view, typically from a nib.
+    
+    
     
     //  Privacy - Location Always and When In Use Usage Description : 我们需要通过您的地理位置信息获取您周边的相关数据
     //  Privacy - Location Always Usage Description                 : 我们需要通过您的地理位置信息获取您周边的相关数据
     //  Privacy - Location When In Use Usage Description            : 使用应用期间
     
-    // Do any additional setup after loading the view, typically from a nib.
+    
+    
     [self.locationAddressView sizeToFit];
-    
     [self.locationGCJ02View sizeToFit];
-    
     [self.locationBD09View sizeToFit];
+    [self.locationWGS84View sizeToFit];
     
+    
+    // http://lbs.amap.com/console/show/picker              高德坐标拾取器
+    // http://api.map.baidu.com/lbsapi/getpoint/index.html  百度坐标拾取器
     
     
     NSLog(@"SwpLocationInfo     = %@", SwpLocation.shareInstanceInit().swpLocationInfo);
@@ -69,23 +78,27 @@
             NSString *BD09 = [NSString stringWithFormat:@"BD09坐标系 < 百度坐标 > ：%@,%@", model.longitudeBD09, model.latitudeBD09];
             strongSelf.locationBD09View.text = BD09;
             NSLog(@"%@", BD09);
+            
+            SwpLocationCoordinate2D temp     = SwpLocationCoordinateUtilsGCJ02ToWGS84(model.latitudeGCJ02.doubleValue, model.longitudeGCJ02.doubleValue);
+            NSString                *WGS84   = [NSString stringWithFormat:@"WGS84坐标系 < 国际标准坐标 > ：%@,%@", @(temp.longitude), @(temp.latitude)];
+            strongSelf.locationWGS84View.text = WGS84;
         }
         
         {
         
             SwpLocationCoordinate2D GCJ02_0 = SwpLocationCoordinate2DMake(model.latitudeGCJ02.doubleValue, model.longitudeGCJ02.doubleValue);
-            NSLog(@"GCJ02_0 = %f,%f", GCJ02_0.longitude, GCJ02_0.latitude);
+            NSLog(@"GCJ02_0 = %@,%@", @(GCJ02_0.longitude), @(GCJ02_0.latitude));
             SwpLocationCoordinate2D WGS84_0 = SwpLocationCoordinateUtilsGCJ02ToWGS84(GCJ02_0.latitude, GCJ02_0.longitude);
-            NSLog(@"WGS84_0 = %f,%f", WGS84_0.longitude, WGS84_0.latitude);
+            NSLog(@"WGS84_0 = %@,%@", @(WGS84_0.longitude), @(WGS84_0.latitude));
             SwpLocationCoordinate2D GCJ02_1 = SwpLocationCoordinateUtilsWGS84ToGCJ02(WGS84_0.latitude, WGS84_0.longitude);
-            NSLog(@"GCJ02_1 = %f,%f", GCJ02_1.longitude, GCJ02_1.latitude);
+            NSLog(@"GCJ02_1 = %@,%@", @(GCJ02_1.longitude), @(GCJ02_1.latitude));
             
             SwpLocationCoordinate2D DB_90_0 = SwpLocationCoordinate2DMake(model.latitudeBD09.doubleValue, model.longitudeBD09.doubleValue);
-            NSLog(@"DB_90_0 = %f,%f", DB_90_0.longitude, DB_90_0.latitude);
+            NSLog(@"DB_90_0 = %@,%@", @(DB_90_0.longitude), @(DB_90_0.latitude));
             SwpLocationCoordinate2D WGS84_1 = SwpLocationCoordinateUtilsBD09ToWGS84(DB_90_0.latitude, DB_90_0.longitude);
-            NSLog(@"WGS84_1 = %f,%f", WGS84_1.longitude, WGS84_1.latitude);
+            NSLog(@"WGS84_1 = %@,%@", @(WGS84_1.longitude), @(WGS84_1.latitude));
             SwpLocationCoordinate2D DB_90_1 = SwpLocationCoordinateUtilsWGS84ToBD09(WGS84_1.latitude, WGS84_1.longitude);
-            NSLog(@"DB_90_1 = %f,%f", DB_90_1.longitude, DB_90_1.latitude);
+            NSLog(@"DB_90_1 = %@,%@", @(DB_90_1.longitude), @(DB_90_1.latitude));
 
         }
         

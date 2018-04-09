@@ -3,15 +3,15 @@
 <plist version="1.0">
 <dict>
 	<key>Version</key>
-	<string>1.2.2</string>
+	<string>1.2.3</string>
 	<key>Author</key>
 	<string>swp-song</string>
 	<key>GitHub</key>
 	<string>https://github.com/swp-song</string>
-	<key>SwpLocation</key>
-	<string>https://github.com/swp-song/SwpLocation</string>
 	<key>Documents</key>
 	<string>https://swp-song.com/docs/SwpLocation/</string>
+	<key>SwpLocation</key>
+	<string>https://github.com/swp-song/SwpLocation</string>
 	<key>Blogs</key>
 	<array>
 		<string>https://swp-song.cn</string>

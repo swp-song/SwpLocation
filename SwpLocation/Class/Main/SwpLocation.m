@@ -55,8 +55,6 @@
 - (instancetype)init {
     
     if (self = [super init]) {
-
-        
     }
     return self;
     
@@ -326,7 +324,7 @@
  *
  *  @brief  swpLocationDidChangeAuthorizationStatusChain    ( SwpLocation 回调方法，获取定位权限，定位权限发生改变时调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain {
     
     return ^(void(^swpLocationDidChangeAuthorizationStatus)(SwpLocation *swpLocation, SwpLocationAuthorizedStatus status)) {
         [self swpLocationDidChangeAuthorizationStatus:swpLocationDidChangeAuthorizationStatus];
@@ -351,7 +349,7 @@
  *
  *  @brief  swpLocationSuccessChain ( SwpLocation 回调方法，定位成功调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSArray * _Nonnull)))swpLocationSuccessChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSArray * _Nonnull)))swpLocationSuccessChain {
     
     return ^(void(^swpLocationSuccess)(SwpLocation *swpLocation, NSArray *locations)) {
         [self swpLocationSuccess:swpLocationSuccess];
@@ -375,7 +373,7 @@
  *
  *  @brief  swpLocationErrorChain   ( SwpLocation 回调方法，定位失败调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSError * _Nonnull)))swpLocationErrorChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSError * _Nonnull)))swpLocationErrorChain {
     return ^(void(^swpLocationError)(SwpLocation *swpLocation, NSError *error)) {
         [self swpLocationError:swpLocationError];
         return self;
@@ -401,7 +399,7 @@
  *
  *  @brief  swpLocationReverseGeocodeChain  ( SwpLocation 回调方法，反地理编码调用 )
  */
-- (SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain {
     return ^(void(^swpLocationReverseGeocode)(SwpLocation *swpLocation, SwpLocationModel *model, NSError *error)) {
         [self swpLocationReverseGeocode:swpLocationReverseGeocode];
         return self;
