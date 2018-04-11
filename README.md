@@ -7,15 +7,27 @@
 [![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
 [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
 [![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
-[![SwpLocationAPI](https://img.shields.io/badge/SwpLocationAPI-v1.2.3-44E0D3.svg)](https://swp-song.com/docs/SwpLocation/)
+[![SwpLocationAPI](https://img.shields.io/badge/SwpLocationAPI-v1.2.4-44E0D3.svg)](https://swp-song.com/docs/SwpLocation/)
 
 
 
 -------
 
 ###  简介
+> * 简单封装系统定位，并进行坐标转换： 
+> * **GCJ-02 「火星坐标系」转换BD-09「百度坐标系」**
+> * **BD-09 「百度坐标系」转换 GCJ-02「火星坐标系」**
+> * **WGS-84 「国际标准坐标」 转换 GCJ-02「火星坐标系」**
+> * **GCJ-02 「火星坐标系」转换 WGS-84「国际标准坐标」**
+> * **BD-09 「百度坐标系」转换 WGS-84「国际标准坐标」**
+> * **WGS-84「国际标准坐标」转换 BD-09 「百度坐标系」**
 
-> * 简单封装系统定位，并进行坐标转换，**GCJ02 <火星>** 坐标系转换成 **BD09<百度>** 坐标系。
+
+-------
+
+### 效果
+
+![(效果)](https://raw.githubusercontent.com/swp-song/SwpLocation/master/Screenshot/SwpLocation.gif)
 
 -------
 
@@ -49,11 +61,33 @@ SwpLocation.shareInstanceInit()
 .swpLocationOpenChain()
 //  定位失败回调
 .swpLocationErrorChain(^(SwpLocation *swpLocation, NSError *error){
-
+    //  处理内容
 })
 //  定位成功，获取定位信息回调
 .swpLocationReverseGeocodeChain(^(SwpLocation *swpLocation, SwpLocationModel *model, NSError *error){
 
+    // 坐标转换
+    SwpLocationCoordinate2D GCJ02_0 = SwpLocationCoordinate2DMake(model.latitudeGCJ02.doubleValue, model.longitudeGCJ02.doubleValue);
+    NSLog(@"GCJ02_0 = %@,%@", @(GCJ02_0.longitude), @(GCJ02_0.latitude));
+    
+    //  GCJ02 转换 WGS84
+    SwpLocationCoordinate2D WGS84_0 = SwpLocationCoordinateUtilsGCJ02ToWGS84(GCJ02_0.latitude, GCJ02_0.longitude);
+    NSLog(@"WGS84_0 = %@,%@", @(WGS84_0.longitude), @(WGS84_0.latitude));
+    
+    //  WGS84 转换 GCJ02
+    SwpLocationCoordinate2D GCJ02_1 = SwpLocationCoordinateUtilsWGS84ToGCJ02(WGS84_0.latitude, WGS84_0.longitude);
+    NSLog(@"GCJ02_1 = %@,%@", @(GCJ02_1.longitude), @(GCJ02_1.latitude));
+            
+    SwpLocationCoordinate2D DB_90_0 = SwpLocationCoordinate2DMake(model.latitudeBD09.doubleValue, model.longitudeBD09.doubleValue);
+    NSLog(@"DB_90_0 = %@,%@", @(DB_90_0.longitude), @(DB_90_0.latitude));
+    
+    //  BD09 转换 WGS84
+    SwpLocationCoordinate2D WGS84_1 = SwpLocationCoordinateUtilsBD09ToWGS84(DB_90_0.latitude, DB_90_0.longitude);
+    NSLog(@"WGS84_1 = %@,%@", @(WGS84_1.longitude), @(WGS84_1.latitude));
+    
+    //  WGS84 转换 BD09
+    SwpLocationCoordinate2D DB_90_1 = SwpLocationCoordinateUtilsWGS84ToBD09(WGS84_1.latitude, WGS84_1.longitude);
+    NSLog(@"DB_90_1 = %@,%@", @(DB_90_1.longitude), @(DB_90_1.latitude));
 });
 
 ```
@@ -73,11 +107,17 @@ SwpLocation.shareInstanceInit()
 
 > * [SwpLocation 文档](https://swp-song.com/docs/SwpLocation/)
 
-
 -------
 
 
 ### 版本记录
+
+> * 版本版本：1.2.4
+> * 更新时间：2018-04-11 13:04:22
+> * 更新内容：
+>> * 更新 Demo，迭代版本。
+
+>> -------
 
 > * 版本版本：1.2.3
 > * 更新时间：2018-04-09 16:56:41
@@ -85,16 +125,6 @@ SwpLocation.shareInstanceInit()
 >>  *  内部优化，修改 Demo， 更新文档。
 
 >> -------
-
-> * 版本版本：1.2.2
-> * 更新时间：2018-04-04 17:51:54
-> * 更新内容：
->> * 更新文档信息，Demo 信息
-
->> -------
-
-
-
 
 -------
 

@@ -1,0 +1,1 @@
+../../../SwpCateGory/SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedString.h

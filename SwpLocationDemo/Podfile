@@ -9,7 +9,15 @@ target 'SwpLocationDemo' do
   # use_frameworks!
 
   # Pods for SwpLocationDemo
+  inhibit_all_warnings!
+  
   pod 'SwpLocation', :path => '../'
+  
+  pod 'Masonry'
+  pod 'SwpCateGory/SwpColor'
+  pod 'SwpCateGory/SwpSetButton'
+  pod 'SwpCateGory/SwpAttributed'
+  pod 'SwpCateGory/SwpCreateImage'
   
 
 end

@@ -7,94 +7,246 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
-		01A2D1319F2D280F19C7D1B4DDB02C31 /* SwpLocationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE49FB687F3B5A364D39142D859A6F4 /* SwpLocationType.m */; };
-		0227ACBFA428B333D1C263062F4885B3 /* SwpLocationCoordinateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C54873470896B217B88648F6856EF7A9 /* SwpLocationCoordinateUtils.m */; };
-		042EE721A3B21BEC55A4A76C885D4AA9 /* SwpLocationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A787D17CF152DD94AD88642B9FDD55 /* SwpLocationTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		14755F61FA60947BF2C72B9260D1964A /* SwpLocationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2C6EA6337EFEDB8C08277DA713E0FA /* SwpLocationHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		1F646D7DF36EFC9F6A658E4A7E845058 /* SwpLocationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 029A5BC222046515B285A50527F6DB52 /* SwpLocationTools.m */; };
-		2133B03B3AD76A973FBF175457C4A882 /* SwpBaseLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF442FF4356F66759B45BF5AF61654A1 /* SwpBaseLocation.m */; };
-		2A954A0B8BD30337DFBC11EB85AF9E57 /* SwpLocationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5986BF17C82BF1F9223DF8D3547BB9C9 /* SwpLocationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		3CBE4DBB0782EFA13D30FD1EF27E4230 /* SwpLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FBB1ED2153119BCBF99189F522CE7 /* SwpLocation.m */; };
-		3D76B59F62FECC11EF45BD3D16F00F58 /* Pods-SwpLocationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE594879402E8760F801570AF813FAE /* Pods-SwpLocationDemo-dummy.m */; };
-		71E652D09529B7F63E9296755E4D935A /* SwpLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFE350688997A3CD270078E91E45439 /* SwpLocationModel.m */; };
-		875C1E0483CA7BCB8A9D9370AB553860 /* SwpLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E76F755E22303133264BBB9C7C160ED /* SwpLocationModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		8B81BD7764A8F53D3D6DA206824AAB73 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
-		8CF22FB6F483FEF6F1B0D9B9374C0187 /* SwpLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B46226CD3CF09E94D10D6F9126FC1 /* SwpLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9C6A81C4A27E0C80026E9E9B02D7BBF8 /* SwpLocationCoordinateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB8E43AB3AFE24111A2E5AE6DADC171 /* SwpLocationCoordinateUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		9D49B510D240CC9C3B5437494313F937 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */; };
-		C1DB32D96BEECCFDAA2F90013BAE82C0 /* SwpBaseLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 196EE127F67C166B3CCBCF35F4B0F438 /* SwpBaseLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		E2897745EBA58CEC30E4E209850A2B1C /* SwpLocationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DADB6F54E83FB036841138DBF69718 /* SwpLocationType.h */; settings = {ATTRIBUTES = (Project, ); }; };
-		F2DF0C1E1458BEB2CC917852C3C38F2F /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */; };
-		F6704EF14B812C3144DF4FAF7861A126 /* SwpLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F7A8FE8EEDED2C6CACB9D590B0DA7 /* SwpLocation-dummy.m */; };
+		010D6EE77C9061B90A892BE816C3FD63 /* SwpAttributedColor.m in Sources */ = {isa = PBXBuildFile; fileRef = E5C74801D41EA205344EFA4F9FFD0BD2 /* SwpAttributedColor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		01A1C0D211773508B60C52598863209D /* SwpLocationHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = BD2C6EA6337EFEDB8C08277DA713E0FA /* SwpLocationHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		023B0641378991CFC6E8736F04EAC5CA /* SwpLocationCoordinateUtils.m in Sources */ = {isa = PBXBuildFile; fileRef = C54873470896B217B88648F6856EF7A9 /* SwpLocationCoordinateUtils.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		044E7D62684E9B1ED8FD8F18F320B46B /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79182AE44C97C1E8C888A725FD7BD823 /* Foundation.framework */; };
+		0C2303CABEFEAE407BE54D0655CEF2BC /* SwpCateGory.m in Sources */ = {isa = PBXBuildFile; fileRef = 56447B3AFFBB5AA7CFFA550215825DD7 /* SwpCateGory.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */ = {isa = PBXBuildFile; fileRef = 4C0DADAA11BC89161AFBEDB2F7556D34 /* MASViewAttribute.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		14B65CE3038761FA8F6F5D1ECED6A562 /* NSArray+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A89CD02DD756E63027AD4FE2F75A9A4 /* NSArray+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		19DF2ABD5CD39B12CCE810189D5BFC48 /* SwpCateGory.h in Headers */ = {isa = PBXBuildFile; fileRef = 35D818D39BEBF469055F77E3EF6ABE39 /* SwpCateGory.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1AF513D8D71B663D5422760106B13723 /* MASConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = D27ABC854FD2F53670D654CEB275DD42 /* MASConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1CC26BA0FC6E3A4555DDF264CE54CA81 /* SwpLocationModel.m in Sources */ = {isa = PBXBuildFile; fileRef = ABFE350688997A3CD270078E91E45439 /* SwpLocationModel.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		1E1D43F929A6A90344CA4EC9AA428686 /* SwpAttributedDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = F81062C262F2C2892C5CE46C14FAF76B /* SwpAttributedDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		1FAF73EB64CB8A6C38FCEFEC575E5506 /* SwpLocationType.h in Headers */ = {isa = PBXBuildFile; fileRef = 17DADB6F54E83FB036841138DBF69718 /* SwpLocationType.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 1C60A1D0FF91AB847A19DC7D3DE25397 /* NSLayoutConstraint+MASDebugAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		23DDC5256CB02EB8F3A12EBD1E94A53D /* SwpAttributedHeader.h in Headers */ = {isa = PBXBuildFile; fileRef = D33D4D1E81DA836E8B41055F69F1CB80 /* SwpAttributedHeader.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		2439614EF810054319E1E94D9ED648BE /* SwpLocationModel.h in Headers */ = {isa = PBXBuildFile; fileRef = 6E76F755E22303133264BBB9C7C160ED /* SwpLocationModel.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		33C7209CD7DCA74514B5BCAFAA3A09E9 /* SwpLocationType.m in Sources */ = {isa = PBXBuildFile; fileRef = 6EE49FB687F3B5A364D39142D859A6F4 /* SwpLocationType.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		4257A25D312599E14B86A4F80A9A76F5 /* UIImage+SwpCreateImage.m in Sources */ = {isa = PBXBuildFile; fileRef = 866C69FBFB3654A689D964FA29115BAF /* UIImage+SwpCreateImage.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		466869E41EB306F74C8A6E87CC1539BF /* ViewController+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = ACF47CE99A04B335F7BBC3B09FBFC3B6 /* ViewController+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */ = {isa = PBXBuildFile; fileRef = 1663BFD2520A327646482C7CF92DB178 /* Masonry.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		525574B2075727A2C43B48A617028FBF /* UIImage+SwpCreateImage.h in Headers */ = {isa = PBXBuildFile; fileRef = CC3BC84D5FC635AE23359E2AEE2D8C78 /* UIImage+SwpCreateImage.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		548BBD5B63FA097F419829C3EE8EA068 /* View+MASAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2D9F1ABADF52A94FC97A24DF1F1F9FD6 /* View+MASAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		565876FBE27CF20AE29CAA61DF0A003B /* SwpAttributedFont.h in Headers */ = {isa = PBXBuildFile; fileRef = 9285765E1D623D2D399D66ED7A131B0F /* SwpAttributedFont.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5936EC36DB2BEB4211C4B9C65D26C444 /* SwpLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = D38B46226CD3CF09E94D10D6F9126FC1 /* SwpLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		5B46C39A3F939EDB676981756CC24007 /* Masonry-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 544D44742C15792F9887FA16D3CCEBB0 /* Masonry-dummy.m */; };
+		5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = C3766DD8C76094101DE354D4F8970DCC /* MASViewConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		61C611ABFFC5FFF35ACE70883CB8F523 /* MASLayoutConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FC2DC1729252903DF2A0EB33A8F076D /* MASLayoutConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5190CB20CBCB12783E3337EF782F6D2 /* UIKit.framework */; };
+		6B51ADCA4C0B10B14560A240D4302748 /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = CD19AB250D71A3F1FB09A3110CFB130D /* CoreLocation.framework */; };
+		6EE8D9F1792C39230A1AE7683C418DE3 /* SwpLocationTools.h in Headers */ = {isa = PBXBuildFile; fileRef = 08A787D17CF152DD94AD88642B9FDD55 /* SwpLocationTools.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		6F9F091EB395CC8BFEF063D5FD097932 /* SwpLocationTools.m in Sources */ = {isa = PBXBuildFile; fileRef = 029A5BC222046515B285A50527F6DB52 /* SwpLocationTools.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 44C40AB82EA85E05D92D05EC51D75DF7 /* MASConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		76E05DC707F2E32531B4ED6F3CA4DFD7 /* NSMutableAttributedString+SwpAttributed.m in Sources */ = {isa = PBXBuildFile; fileRef = D859D8985E7398FEBFE37922B865A853 /* NSMutableAttributedString+SwpAttributed.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */ = {isa = PBXBuildFile; fileRef = B09F786E5C0E4CA5657D20E346A70BF8 /* MASUtilities.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8083D10B4B6BFF10D93C551714A83281 /* SwpLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = 6C4FBB1ED2153119BCBF99189F522CE7 /* SwpLocation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */ = {isa = PBXBuildFile; fileRef = DEB9EC68D991CD38F5B7F7E60D0ACEA3 /* MASConstraint+Private.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 4BD4CD3528771FD6F66DCAAD6063EFA7 /* ViewController+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BD9EA5DB39753591A119384B6A7B73E /* NSMutableAttributedString+SwpAttributed.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F8E55BCF8B1117785E341E15554123E /* NSMutableAttributedString+SwpAttributed.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8BF38CF4B6B6FFA1F27536D1EC4C9690 /* SwpAttributedColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 8EB957350B55F092B9BCFC5BF9B4B7AF /* SwpAttributedColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		8EF80B08843E95BEE844245741632FA2 /* UIColor+SwpColor.h in Headers */ = {isa = PBXBuildFile; fileRef = 99AE17BDDEE7CF8677930A88B1FFDDDF /* UIColor+SwpColor.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = E3AFEEA5F5B6D874C811840002D20F71 /* View+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		98049340C2396266498D6A1DEE5BA843 /* SwpAttributedString.m in Sources */ = {isa = PBXBuildFile; fileRef = 77E1AE800C2C5F43D1BCE2F33E854E65 /* SwpAttributedString.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		99E00D593F76D7E6C96300345E211282 /* MASConstraintMaker.m in Sources */ = {isa = PBXBuildFile; fileRef = 0CD9C229B1F16AF707F14569727CCB09 /* MASConstraintMaker.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = CECED1D03120A7434E0F495ABB48CECE /* MASLayoutConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 6D00363763FC81D7890BFC5A6D6C95D2 /* NSArray+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		A594874C6422746EB450FEF1D1871374 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = D5190CB20CBCB12783E3337EF782F6D2 /* UIKit.framework */; };
+		AE4300AA218F3A54D5BDD01C975C2797 /* SwpLocationCoordinateUtils.h in Headers */ = {isa = PBXBuildFile; fileRef = 2FB8E43AB3AFE24111A2E5AE6DADC171 /* SwpLocationCoordinateUtils.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */ = {isa = PBXBuildFile; fileRef = 74D6EFB17498409435AEEFA9462C4414 /* MASConstraintMaker.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B835CAC77697C441078584F01B5F8BB0 /* SwpAttributedString.h in Headers */ = {isa = PBXBuildFile; fileRef = E63F0694CEE34F0ABA93198A31979121 /* SwpAttributedString.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		B953667D411D1DCD919CBD314F568A92 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */ = {isa = PBXBuildFile; fileRef = 2B7107F34C7D505438D8E46045BD6727 /* NSLayoutConstraint+MASDebugAdditions.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		C227A261EFB66A5B259D727D0581517E /* SwpLocation-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = D11F7A8FE8EEDED2C6CACB9D590B0DA7 /* SwpLocation-dummy.m */; };
+		C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = 75FA726D28A89B0BEC0E472AC13199FD /* View+MASAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		CEF7E139022FFA4F5C99D4DC5DE67990 /* MASViewAttribute.m in Sources */ = {isa = PBXBuildFile; fileRef = E330163F5C122A7BE7EBF31CD58A990F /* MASViewAttribute.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D135FA253AB3718BACC432A436A06DA5 /* UIColor+SwpColor.m in Sources */ = {isa = PBXBuildFile; fileRef = 1AFD3AB278D23C2756C73E3A2C1B73B0 /* UIColor+SwpColor.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D7FBAB77A5421E20AFD6929A16A48899 /* Pods-SwpLocationDemo-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 3DE594879402E8760F801570AF813FAE /* Pods-SwpLocationDemo-dummy.m */; };
+		D8D72BEC4364E9F77BCC6B8AB4E30DF3 /* MASViewConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = B2C2F4872C9DB326E114601AA2EB2317 /* MASViewConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		D93A57D1BC0C98C8221C99AD4ABE2F69 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79182AE44C97C1E8C888A725FD7BD823 /* Foundation.framework */; };
+		EE35CA8F7614528A6512675D61FD484D /* SwpBaseLocation.h in Headers */ = {isa = PBXBuildFile; fileRef = 196EE127F67C166B3CCBCF35F4B0F438 /* SwpBaseLocation.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		EF94472F7B5BB9666FA2D8C5425A4A41 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79182AE44C97C1E8C888A725FD7BD823 /* Foundation.framework */; };
+		EF9C030B6C75025EAA81620E56FE863D /* UIButton+SwpSetButton.m in Sources */ = {isa = PBXBuildFile; fileRef = A0EA634A6A8B1D40A9EC982A674285DC /* UIButton+SwpSetButton.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 79182AE44C97C1E8C888A725FD7BD823 /* Foundation.framework */; };
+		F21927B97B9EFA0A34F92929F3FC3027 /* SwpLocationDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 5986BF17C82BF1F9223DF8D3547BB9C9 /* SwpLocationDelegate.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F304AEF28112833F174290E5A321EC2A /* SwpCateGory-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = A1676CFD7B2F5FC2DCA2382F1E219A17 /* SwpCateGory-dummy.m */; };
+		F390D582745DF3516ADD4D910A2ACFFA /* MASCompositeConstraint.m in Sources */ = {isa = PBXBuildFile; fileRef = E2755919E702AFE1BE909E205FC423A4 /* MASCompositeConstraint.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F428CC52273128A2CCDEF3C309ABBB27 /* UIButton+SwpSetButton.h in Headers */ = {isa = PBXBuildFile; fileRef = 9CE6E763273A9DC2B8EB406F5A357CEB /* UIButton+SwpSetButton.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		F481CFC540D7DBD9ACE69FE174FC4964 /* SwpBaseLocation.m in Sources */ = {isa = PBXBuildFile; fileRef = CF442FF4356F66759B45BF5AF61654A1 /* SwpBaseLocation.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */ = {isa = PBXBuildFile; fileRef = 7FBF5D6B6FCD4FE6F095F8578D4C2171 /* MASCompositeConstraint.h */; settings = {ATTRIBUTES = (Project, ); }; };
+		FAE5297159674DA9C50D1CF0CDA9FE9C /* SwpAttributedFont.m in Sources */ = {isa = PBXBuildFile; fileRef = 0210580DD3E809BDD4A571425B54D28B /* SwpAttributedFont.m */; settings = {COMPILER_FLAGS = "-w -Xanalyzer -analyzer-disable-all-checks"; }; };
+		FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */ = {isa = PBXBuildFile; fileRef = AD16E4D4F7557381FA7228DCC36B59DE /* NSArray+MASShorthandAdditions.h */; settings = {ATTRIBUTES = (Project, ); }; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
-		3F01688701D2F9B103601FE79333E683 /* PBXContainerItemProxy */ = {
+		6FC6D031DA8D686E745031677CAE8EDA /* PBXContainerItemProxy */ = {
 			isa = PBXContainerItemProxy;
 			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
 			proxyType = 1;
-			remoteGlobalIDString = 105EEA1D1BF5EBD4117BF6A7975213B3;
+			remoteGlobalIDString = 3330CB23BDAC7711E83F8DD1098A72BF;
+			remoteInfo = SwpCateGory;
+		};
+		7D9F1EA86A465581A95ECA172BB907CA /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 8266B5F049E8D640CF6302771B549BE6;
 			remoteInfo = SwpLocation;
+		};
+		AA674AE7A6C09A8A3D8CF754443E4013 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 9DC8D9E02903E93BD0B2FEC9D846EA20;
+			remoteInfo = Masonry;
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0210580DD3E809BDD4A571425B54D28B /* SwpAttributedFont.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwpAttributedFont.m; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedFont.m; sourceTree = "<group>"; };
 		029A5BC222046515B285A50527F6DB52 /* SwpLocationTools.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationTools.m; sourceTree = "<group>"; };
-		042A5B346E858DEB9E95754C33199FA7 /* libPods-SwpLocationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwpLocationDemo.a"; path = "libPods-SwpLocationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		072AED00F1EE65434101D5963B3C17D1 /* SwpLocation-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwpLocation-prefix.pch"; sourceTree = "<group>"; };
 		08A787D17CF152DD94AD88642B9FDD55 /* SwpLocationTools.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationTools.h; sourceTree = "<group>"; };
-		0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		0CD9C229B1F16AF707F14569727CCB09 /* MASConstraintMaker.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraintMaker.m; path = Masonry/MASConstraintMaker.m; sourceTree = "<group>"; };
+		0DED6E9D8B05C610CE9699A46CDDCFC0 /* SwpCateGory.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwpCateGory.xcconfig; sourceTree = "<group>"; };
 		0F306516DD1C802CDA6EE0749944F389 /* Pods-SwpLocationDemo-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-SwpLocationDemo-acknowledgements.plist"; sourceTree = "<group>"; };
+		0F8E55BCF8B1117785E341E15554123E /* NSMutableAttributedString+SwpAttributed.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSMutableAttributedString+SwpAttributed.h"; path = "SwpCateGory/Class/Other/SwpAttributeCateGory/NSMutableAttributedString+SwpAttributed.h"; sourceTree = "<group>"; };
+		1663BFD2520A327646482C7CF92DB178 /* Masonry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = Masonry.h; path = Masonry/Masonry.h; sourceTree = "<group>"; };
 		17DADB6F54E83FB036841138DBF69718 /* SwpLocationType.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationType.h; sourceTree = "<group>"; };
 		196EE127F67C166B3CCBCF35F4B0F438 /* SwpBaseLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpBaseLocation.h; sourceTree = "<group>"; };
+		1AFD3AB278D23C2756C73E3A2C1B73B0 /* UIColor+SwpColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+SwpColor.m"; path = "SwpCateGory/Class/UIKit/UIColorCateGory/SwpColor/UIColor+SwpColor.m"; sourceTree = "<group>"; };
+		1C60A1D0FF91AB847A19DC7D3DE25397 /* NSLayoutConstraint+MASDebugAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSLayoutConstraint+MASDebugAdditions.h"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.h"; sourceTree = "<group>"; };
+		2B7107F34C7D505438D8E46045BD6727 /* NSLayoutConstraint+MASDebugAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSLayoutConstraint+MASDebugAdditions.m"; path = "Masonry/NSLayoutConstraint+MASDebugAdditions.m"; sourceTree = "<group>"; };
+		2D9F1ABADF52A94FC97A24DF1F1F9FD6 /* View+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "View+MASAdditions.m"; path = "Masonry/View+MASAdditions.m"; sourceTree = "<group>"; };
 		2FB8E43AB3AFE24111A2E5AE6DADC171 /* SwpLocationCoordinateUtils.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationCoordinateUtils.h; sourceTree = "<group>"; };
-		30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		323E779ABE61192B73AC5FCC284135F7 /* SwpCateGory-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "SwpCateGory-prefix.pch"; sourceTree = "<group>"; };
+		35D818D39BEBF469055F77E3EF6ABE39 /* SwpCateGory.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwpCateGory.h; path = SwpCateGory/Class/SwpCateGory/SwpCateGory.h; sourceTree = "<group>"; };
+		37783D22CE386DEB4C9BF6BD33E3731F /* Masonry.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Masonry.xcconfig; sourceTree = "<group>"; };
 		3DE594879402E8760F801570AF813FAE /* Pods-SwpLocationDemo-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-SwpLocationDemo-dummy.m"; sourceTree = "<group>"; };
+		44C40AB82EA85E05D92D05EC51D75DF7 /* MASConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraint.h; path = Masonry/MASConstraint.h; sourceTree = "<group>"; };
+		4BD4CD3528771FD6F66DCAAD6063EFA7 /* ViewController+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "ViewController+MASAdditions.h"; path = "Masonry/ViewController+MASAdditions.h"; sourceTree = "<group>"; };
+		4C0DADAA11BC89161AFBEDB2F7556D34 /* MASViewAttribute.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewAttribute.h; path = Masonry/MASViewAttribute.h; sourceTree = "<group>"; };
+		544D44742C15792F9887FA16D3CCEBB0 /* Masonry-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Masonry-dummy.m"; sourceTree = "<group>"; };
+		56447B3AFFBB5AA7CFFA550215825DD7 /* SwpCateGory.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwpCateGory.m; path = SwpCateGory/Class/SwpCateGory/SwpCateGory.m; sourceTree = "<group>"; };
 		5986BF17C82BF1F9223DF8D3547BB9C9 /* SwpLocationDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationDelegate.h; sourceTree = "<group>"; };
+		5A89CD02DD756E63027AD4FE2F75A9A4 /* NSArray+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSArray+MASAdditions.m"; path = "Masonry/NSArray+MASAdditions.m"; sourceTree = "<group>"; };
+		5C2BC06E9816249143F9FA46B8B95866 /* SwpCateGory.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SwpCateGory.bundle; path = SwpCateGory/Resources/SwpCateGory.bundle; sourceTree = "<group>"; };
 		6C4FBB1ED2153119BCBF99189F522CE7 /* SwpLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocation.m; sourceTree = "<group>"; };
+		6D00363763FC81D7890BFC5A6D6C95D2 /* NSArray+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASAdditions.h"; path = "Masonry/NSArray+MASAdditions.h"; sourceTree = "<group>"; };
 		6E76F755E22303133264BBB9C7C160ED /* SwpLocationModel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationModel.h; sourceTree = "<group>"; };
 		6EE49FB687F3B5A364D39142D859A6F4 /* SwpLocationType.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationType.m; sourceTree = "<group>"; };
+		74D6EFB17498409435AEEFA9462C4414 /* MASConstraintMaker.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASConstraintMaker.h; path = Masonry/MASConstraintMaker.h; sourceTree = "<group>"; };
+		75FA726D28A89B0BEC0E472AC13199FD /* View+MASAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASAdditions.h"; path = "Masonry/View+MASAdditions.h"; sourceTree = "<group>"; };
 		77934D047DD923AA46138C674BF516A5 /* Pods-SwpLocationDemo-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwpLocationDemo-resources.sh"; sourceTree = "<group>"; };
+		77E1AE800C2C5F43D1BCE2F33E854E65 /* SwpAttributedString.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwpAttributedString.m; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedString.m; sourceTree = "<group>"; };
+		79182AE44C97C1E8C888A725FD7BD823 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		7FBF5D6B6FCD4FE6F095F8578D4C2171 /* MASCompositeConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASCompositeConstraint.h; path = Masonry/MASCompositeConstraint.h; sourceTree = "<group>"; };
+		866C69FBFB3654A689D964FA29115BAF /* UIImage+SwpCreateImage.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIImage+SwpCreateImage.m"; path = "SwpCateGory/Class/UIKit/UIImageCateGory/SwpCreateImage/UIImage+SwpCreateImage.m"; sourceTree = "<group>"; };
 		885B37FC81990F546FB221B6D4AFF164 /* SwpLocation.podspec */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; path = SwpLocation.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		8EB957350B55F092B9BCFC5BF9B4B7AF /* SwpAttributedColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwpAttributedColor.h; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedColor.h; sourceTree = "<group>"; };
+		9285765E1D623D2D399D66ED7A131B0F /* SwpAttributedFont.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwpAttributedFont.h; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedFont.h; sourceTree = "<group>"; };
 		93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */ = {isa = PBXFileReference; explicitFileType = text.script.ruby; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		944DE2C6117AFEA31404C324954E3885 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; path = LICENSE; sourceTree = "<group>"; };
+		99AE17BDDEE7CF8677930A88B1FFDDDF /* UIColor+SwpColor.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+SwpColor.h"; path = "SwpCateGory/Class/UIKit/UIColorCateGory/SwpColor/UIColor+SwpColor.h"; sourceTree = "<group>"; };
+		99D7469B8CEA98700977C3610ED11F92 /* Masonry-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Masonry-prefix.pch"; sourceTree = "<group>"; };
+		9CE6E763273A9DC2B8EB406F5A357CEB /* UIButton+SwpSetButton.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIButton+SwpSetButton.h"; path = "SwpCateGory/Class/UIKit/UIButtonCateGory/SwpSetButton/UIButton+SwpSetButton.h"; sourceTree = "<group>"; };
 		9F3943D8990B3D1F6A29ED7F3D6E6CE6 /* SwpLocation.bundle */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "wrapper.plug-in"; name = SwpLocation.bundle; path = SwpLocation/Resources/SwpLocation.bundle; sourceTree = "<group>"; };
-		9FE02B9D6F976FB3DDAEE83FBD2BB74E /* libSwpLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwpLocation.a; path = libSwpLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		9FC2DC1729252903DF2A0EB33A8F076D /* MASLayoutConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASLayoutConstraint.m; path = Masonry/MASLayoutConstraint.m; sourceTree = "<group>"; };
+		A0EA634A6A8B1D40A9EC982A674285DC /* UIButton+SwpSetButton.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIButton+SwpSetButton.m"; path = "SwpCateGory/Class/UIKit/UIButtonCateGory/SwpSetButton/UIButton+SwpSetButton.m"; sourceTree = "<group>"; };
+		A1676CFD7B2F5FC2DCA2382F1E219A17 /* SwpCateGory-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwpCateGory-dummy.m"; sourceTree = "<group>"; };
 		ABFE350688997A3CD270078E91E45439 /* SwpLocationModel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationModel.m; sourceTree = "<group>"; };
+		ACF47CE99A04B335F7BBC3B09FBFC3B6 /* ViewController+MASAdditions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "ViewController+MASAdditions.m"; path = "Masonry/ViewController+MASAdditions.m"; sourceTree = "<group>"; };
+		AD16E4D4F7557381FA7228DCC36B59DE /* NSArray+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "NSArray+MASShorthandAdditions.h"; path = "Masonry/NSArray+MASShorthandAdditions.h"; sourceTree = "<group>"; };
 		B05EB5551EF2951BEB44CF216984DBA2 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; path = README.md; sourceTree = "<group>"; };
+		B09F786E5C0E4CA5657D20E346A70BF8 /* MASUtilities.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASUtilities.h; path = Masonry/MASUtilities.h; sourceTree = "<group>"; };
+		B2C2F4872C9DB326E114601AA2EB2317 /* MASViewConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewConstraint.m; path = Masonry/MASViewConstraint.m; sourceTree = "<group>"; };
+		B2CD908C40EDCBE11C703A38ACED5B9F /* libSwpCateGory.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwpCateGory.a; path = libSwpCateGory.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		B311C02D3FD74ADC1A2ED99ED5FCB32F /* libSwpLocation.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libSwpLocation.a; path = libSwpLocation.a; sourceTree = BUILT_PRODUCTS_DIR; };
 		BD2C6EA6337EFEDB8C08277DA713E0FA /* SwpLocationHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocationHeader.h; sourceTree = "<group>"; };
 		C3658A48256DBF4104C2AF49DB55FD13 /* Pods-SwpLocationDemo-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-SwpLocationDemo-frameworks.sh"; sourceTree = "<group>"; };
+		C3766DD8C76094101DE354D4F8970DCC /* MASViewConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASViewConstraint.h; path = Masonry/MASViewConstraint.h; sourceTree = "<group>"; };
 		C54873470896B217B88648F6856EF7A9 /* SwpLocationCoordinateUtils.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpLocationCoordinateUtils.m; sourceTree = "<group>"; };
 		CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = SwpLocation.xcconfig; sourceTree = "<group>"; };
+		CC3BC84D5FC635AE23359E2AEE2D8C78 /* UIImage+SwpCreateImage.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIImage+SwpCreateImage.h"; path = "SwpCateGory/Class/UIKit/UIImageCateGory/SwpCreateImage/UIImage+SwpCreateImage.h"; sourceTree = "<group>"; };
+		CD19AB250D71A3F1FB09A3110CFB130D /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/CoreLocation.framework; sourceTree = DEVELOPER_DIR; };
+		CE764C3816838B59D9FDC71D22547688 /* libPods-SwpLocationDemo.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = "libPods-SwpLocationDemo.a"; path = "libPods-SwpLocationDemo.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		CECED1D03120A7434E0F495ABB48CECE /* MASLayoutConstraint.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MASLayoutConstraint.h; path = Masonry/MASLayoutConstraint.h; sourceTree = "<group>"; };
 		CF442FF4356F66759B45BF5AF61654A1 /* SwpBaseLocation.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = SwpBaseLocation.m; sourceTree = "<group>"; };
 		D11F7A8FE8EEDED2C6CACB9D590B0DA7 /* SwpLocation-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "SwpLocation-dummy.m"; sourceTree = "<group>"; };
+		D27ABC854FD2F53670D654CEB275DD42 /* MASConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASConstraint.m; path = Masonry/MASConstraint.m; sourceTree = "<group>"; };
+		D29DF4CFAC746C83776653672CF0B00F /* libMasonry.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; name = libMasonry.a; path = libMasonry.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		D33D4D1E81DA836E8B41055F69F1CB80 /* SwpAttributedHeader.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwpAttributedHeader.h; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedHeader.h; sourceTree = "<group>"; };
 		D38B46226CD3CF09E94D10D6F9126FC1 /* SwpLocation.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = SwpLocation.h; sourceTree = "<group>"; };
 		D3BC766136E30A33A8C763ADF9AF9834 /* Pods-SwpLocationDemo.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwpLocationDemo.release.xcconfig"; sourceTree = "<group>"; };
+		D5190CB20CBCB12783E3337EF782F6D2 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS10.3.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		D859D8985E7398FEBFE37922B865A853 /* NSMutableAttributedString+SwpAttributed.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "NSMutableAttributedString+SwpAttributed.m"; path = "SwpCateGory/Class/Other/SwpAttributeCateGory/NSMutableAttributedString+SwpAttributed.m"; sourceTree = "<group>"; };
+		DEB9EC68D991CD38F5B7F7E60D0ACEA3 /* MASConstraint+Private.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "MASConstraint+Private.h"; path = "Masonry/MASConstraint+Private.h"; sourceTree = "<group>"; };
+		E2755919E702AFE1BE909E205FC423A4 /* MASCompositeConstraint.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASCompositeConstraint.m; path = Masonry/MASCompositeConstraint.m; sourceTree = "<group>"; };
+		E330163F5C122A7BE7EBF31CD58A990F /* MASViewAttribute.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MASViewAttribute.m; path = Masonry/MASViewAttribute.m; sourceTree = "<group>"; };
+		E3AFEEA5F5B6D874C811840002D20F71 /* View+MASShorthandAdditions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "View+MASShorthandAdditions.h"; path = "Masonry/View+MASShorthandAdditions.h"; sourceTree = "<group>"; };
+		E5C74801D41EA205344EFA4F9FFD0BD2 /* SwpAttributedColor.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = SwpAttributedColor.m; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedColor.m; sourceTree = "<group>"; };
+		E63F0694CEE34F0ABA93198A31979121 /* SwpAttributedString.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwpAttributedString.h; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedString.h; sourceTree = "<group>"; };
 		EC7E0DAFF881A03DDD33E20348EBC3A8 /* Pods-SwpLocationDemo-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-SwpLocationDemo-acknowledgements.markdown"; sourceTree = "<group>"; };
 		F6A8C6345833B53C2CB485B8A103546A /* Pods-SwpLocationDemo.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-SwpLocationDemo.debug.xcconfig"; sourceTree = "<group>"; };
+		F81062C262F2C2892C5CE46C14FAF76B /* SwpAttributedDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = SwpAttributedDelegate.h; path = SwpCateGory/Class/Other/SwpAttributeCateGory/SwpAttributedDelegate.h; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
-		7B3BA1A045E0033941B9135208F59E34 /* Frameworks */ = {
+		596D61AFDCBF6CAC182B5CE1F755AE15 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				F2DF0C1E1458BEB2CC917852C3C38F2F /* Foundation.framework in Frameworks */,
+				EF94472F7B5BB9666FA2D8C5425A4A41 /* Foundation.framework in Frameworks */,
+				A594874C6422746EB450FEF1D1871374 /* UIKit.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DC95649AE32F4A2CA89961A2239D764C /* Frameworks */ = {
+		59AD6F726EBE0744B1C614502A2B8232 /* Frameworks */ = {
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				9D49B510D240CC9C3B5437494313F937 /* CoreLocation.framework in Frameworks */,
-				8B81BD7764A8F53D3D6DA206824AAB73 /* Foundation.framework in Frameworks */,
+				6B51ADCA4C0B10B14560A240D4302748 /* CoreLocation.framework in Frameworks */,
+				D93A57D1BC0C98C8221C99AD4ABE2F69 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F0B56A7D38A399A2F67F9920C9526A66 /* Foundation.framework in Frameworks */,
+				6209E20926D79222E59F58B962BFAA1E /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		7B6A945CCFF3BDC1C1C70021ED831726 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				044E7D62684E9B1ED8FD8F18F320B46B /* Foundation.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		122DA2E5084A4393C29BE363C764795C /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D2C1FAF2B60EDEA08747846FBF4817EA /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		124D2D3DCCCE6395B87EBF57AC74B260 /* SwpCateGory */ = {
+			isa = PBXGroup;
+			children = (
+				35D818D39BEBF469055F77E3EF6ABE39 /* SwpCateGory.h */,
+				56447B3AFFBB5AA7CFFA550215825DD7 /* SwpCateGory.m */,
+				A99E7E813771847FF1D6BCA32424828B /* Resources */,
+			);
+			name = SwpCateGory;
+			sourceTree = "<group>";
+		};
 		39DC366768CAAF991D10A2239D5389C8 /* Resources */ = {
 			isa = PBXGroup;
 			children = (
@@ -111,14 +263,6 @@
 			name = "Targets Support Files";
 			sourceTree = "<group>";
 		};
-		433CD3331B6C3787F473C941B61FC68F /* Frameworks */ = {
-			isa = PBXGroup;
-			children = (
-				CB1F9303D4FCFAC6F81DE9C9CE63F66E /* iOS */,
-			);
-			name = Frameworks;
-			sourceTree = "<group>";
-		};
 		48B02F33EAADFF8C3E485290272EDC65 /* Others */ = {
 			isa = PBXGroup;
 			children = (
@@ -128,6 +272,37 @@
 			);
 			name = Others;
 			path = SwpLocation/Class/Others;
+			sourceTree = "<group>";
+		};
+		50DC4C03F72864DE81960D5189549E8C /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				0DED6E9D8B05C610CE9699A46CDDCFC0 /* SwpCateGory.xcconfig */,
+				A1676CFD7B2F5FC2DCA2382F1E219A17 /* SwpCateGory-dummy.m */,
+				323E779ABE61192B73AC5FCC284135F7 /* SwpCateGory-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/SwpCateGory";
+			sourceTree = "<group>";
+		};
+		5B8B0338F7F6D0B9B858130D18367181 /* SwpCreateImage */ = {
+			isa = PBXGroup;
+			children = (
+				CC3BC84D5FC635AE23359E2AEE2D8C78 /* UIImage+SwpCreateImage.h */,
+				866C69FBFB3654A689D964FA29115BAF /* UIImage+SwpCreateImage.m */,
+			);
+			name = SwpCreateImage;
+			sourceTree = "<group>";
+		};
+		63B44FD2A2E3B6DCAAB01600AF678AF1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				D29DF4CFAC746C83776653672CF0B00F /* libMasonry.a */,
+				CE764C3816838B59D9FDC71D22547688 /* libPods-SwpLocationDemo.a */,
+				B2CD908C40EDCBE11C703A38ACED5B9F /* libSwpCateGory.a */,
+				B311C02D3FD74ADC1A2ED99ED5FCB32F /* libSwpLocation.a */,
+			);
+			name = Products;
 			sourceTree = "<group>";
 		};
 		6609C1ACB1EC85EB04C3EEA193A845D2 /* Pods-SwpLocationDemo */ = {
@@ -155,6 +330,57 @@
 			path = Tools;
 			sourceTree = "<group>";
 		};
+		6D1524CA95504580ADB5A09DE3B8510C /* Masonry */ = {
+			isa = PBXGroup;
+			children = (
+				7FBF5D6B6FCD4FE6F095F8578D4C2171 /* MASCompositeConstraint.h */,
+				E2755919E702AFE1BE909E205FC423A4 /* MASCompositeConstraint.m */,
+				44C40AB82EA85E05D92D05EC51D75DF7 /* MASConstraint.h */,
+				D27ABC854FD2F53670D654CEB275DD42 /* MASConstraint.m */,
+				DEB9EC68D991CD38F5B7F7E60D0ACEA3 /* MASConstraint+Private.h */,
+				74D6EFB17498409435AEEFA9462C4414 /* MASConstraintMaker.h */,
+				0CD9C229B1F16AF707F14569727CCB09 /* MASConstraintMaker.m */,
+				CECED1D03120A7434E0F495ABB48CECE /* MASLayoutConstraint.h */,
+				9FC2DC1729252903DF2A0EB33A8F076D /* MASLayoutConstraint.m */,
+				1663BFD2520A327646482C7CF92DB178 /* Masonry.h */,
+				B09F786E5C0E4CA5657D20E346A70BF8 /* MASUtilities.h */,
+				4C0DADAA11BC89161AFBEDB2F7556D34 /* MASViewAttribute.h */,
+				E330163F5C122A7BE7EBF31CD58A990F /* MASViewAttribute.m */,
+				C3766DD8C76094101DE354D4F8970DCC /* MASViewConstraint.h */,
+				B2C2F4872C9DB326E114601AA2EB2317 /* MASViewConstraint.m */,
+				6D00363763FC81D7890BFC5A6D6C95D2 /* NSArray+MASAdditions.h */,
+				5A89CD02DD756E63027AD4FE2F75A9A4 /* NSArray+MASAdditions.m */,
+				AD16E4D4F7557381FA7228DCC36B59DE /* NSArray+MASShorthandAdditions.h */,
+				1C60A1D0FF91AB847A19DC7D3DE25397 /* NSLayoutConstraint+MASDebugAdditions.h */,
+				2B7107F34C7D505438D8E46045BD6727 /* NSLayoutConstraint+MASDebugAdditions.m */,
+				75FA726D28A89B0BEC0E472AC13199FD /* View+MASAdditions.h */,
+				2D9F1ABADF52A94FC97A24DF1F1F9FD6 /* View+MASAdditions.m */,
+				E3AFEEA5F5B6D874C811840002D20F71 /* View+MASShorthandAdditions.h */,
+				4BD4CD3528771FD6F66DCAAD6063EFA7 /* ViewController+MASAdditions.h */,
+				ACF47CE99A04B335F7BBC3B09FBFC3B6 /* ViewController+MASAdditions.m */,
+				E76DF4175549561B4ACAF3435C03B2BC /* Support Files */,
+			);
+			name = Masonry;
+			path = Masonry;
+			sourceTree = "<group>";
+		};
+		7843F6123B45C8876FC212C5F4D1DC9E /* SwpAttributed */ = {
+			isa = PBXGroup;
+			children = (
+				0F8E55BCF8B1117785E341E15554123E /* NSMutableAttributedString+SwpAttributed.h */,
+				D859D8985E7398FEBFE37922B865A853 /* NSMutableAttributedString+SwpAttributed.m */,
+				8EB957350B55F092B9BCFC5BF9B4B7AF /* SwpAttributedColor.h */,
+				E5C74801D41EA205344EFA4F9FFD0BD2 /* SwpAttributedColor.m */,
+				F81062C262F2C2892C5CE46C14FAF76B /* SwpAttributedDelegate.h */,
+				9285765E1D623D2D399D66ED7A131B0F /* SwpAttributedFont.h */,
+				0210580DD3E809BDD4A571425B54D28B /* SwpAttributedFont.m */,
+				D33D4D1E81DA836E8B41055F69F1CB80 /* SwpAttributedHeader.h */,
+				E63F0694CEE34F0ABA93198A31979121 /* SwpAttributedString.h */,
+				77E1AE800C2C5F43D1BCE2F33E854E65 /* SwpAttributedString.m */,
+			);
+			name = SwpAttributed;
+			sourceTree = "<group>";
+		};
 		7D810D29A7010CBBC2EAD50D639730F5 /* SwpLocation */ = {
 			isa = PBXGroup;
 			children = (
@@ -173,8 +399,9 @@
 			children = (
 				93A4A3777CF96A4AAC1D13BA6DCCEA73 /* Podfile */,
 				C581C1E49B1114A8FEECC28E2F1FCCFD /* Development Pods */,
-				433CD3331B6C3787F473C941B61FC68F /* Frameworks */,
-				9A76AA2B09606C89BF6282115B95ADE9 /* Products */,
+				122DA2E5084A4393C29BE363C764795C /* Frameworks */,
+				A524FA39544852C4473E48D5E73686B9 /* Pods */,
+				63B44FD2A2E3B6DCAAB01600AF678AF1 /* Products */,
 				42A7AE4B569341376A2FDBC8CCC834A6 /* Targets Support Files */,
 			);
 			sourceTree = "<group>";
@@ -200,13 +427,13 @@
 			path = "SwpLocationDemo/Pods/Target Support Files/SwpLocation";
 			sourceTree = "<group>";
 		};
-		9A76AA2B09606C89BF6282115B95ADE9 /* Products */ = {
+		97AECABC02B933B7431EE27E7B575A2D /* SwpSetButton */ = {
 			isa = PBXGroup;
 			children = (
-				042A5B346E858DEB9E95754C33199FA7 /* libPods-SwpLocationDemo.a */,
-				9FE02B9D6F976FB3DDAEE83FBD2BB74E /* libSwpLocation.a */,
+				9CE6E763273A9DC2B8EB406F5A357CEB /* UIButton+SwpSetButton.h */,
+				A0EA634A6A8B1D40A9EC982A674285DC /* UIButton+SwpSetButton.m */,
 			);
-			name = Products;
+			name = SwpSetButton;
 			sourceTree = "<group>";
 		};
 		A0FC78A7B38506CC835E511487F7AAF2 /* DataTypes */ = {
@@ -235,6 +462,23 @@
 			path = SwpLocation/Class/Main;
 			sourceTree = "<group>";
 		};
+		A524FA39544852C4473E48D5E73686B9 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6D1524CA95504580ADB5A09DE3B8510C /* Masonry */,
+				FA3372B46060A3E9657FEC02F8DF1EF4 /* SwpCateGory */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		A99E7E813771847FF1D6BCA32424828B /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				5C2BC06E9816249143F9FA46B8B95866 /* SwpCateGory.bundle */,
+			);
+			name = Resources;
+			sourceTree = "<group>";
+		};
 		C581C1E49B1114A8FEECC28E2F1FCCFD /* Development Pods */ = {
 			isa = PBXGroup;
 			children = (
@@ -243,13 +487,39 @@
 			name = "Development Pods";
 			sourceTree = "<group>";
 		};
-		CB1F9303D4FCFAC6F81DE9C9CE63F66E /* iOS */ = {
+		D2C1FAF2B60EDEA08747846FBF4817EA /* iOS */ = {
 			isa = PBXGroup;
 			children = (
-				0C13E24C78F19F66C8F5AC517D2A9B3D /* CoreLocation.framework */,
-				30EE77B614F7D725FD6674F73B34F331 /* Foundation.framework */,
+				CD19AB250D71A3F1FB09A3110CFB130D /* CoreLocation.framework */,
+				79182AE44C97C1E8C888A725FD7BD823 /* Foundation.framework */,
+				D5190CB20CBCB12783E3337EF782F6D2 /* UIKit.framework */,
 			);
 			name = iOS;
+			sourceTree = "<group>";
+		};
+		E76DF4175549561B4ACAF3435C03B2BC /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				37783D22CE386DEB4C9BF6BD33E3731F /* Masonry.xcconfig */,
+				544D44742C15792F9887FA16D3CCEBB0 /* Masonry-dummy.m */,
+				99D7469B8CEA98700977C3610ED11F92 /* Masonry-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Masonry";
+			sourceTree = "<group>";
+		};
+		FA3372B46060A3E9657FEC02F8DF1EF4 /* SwpCateGory */ = {
+			isa = PBXGroup;
+			children = (
+				50DC4C03F72864DE81960D5189549E8C /* Support Files */,
+				7843F6123B45C8876FC212C5F4D1DC9E /* SwpAttributed */,
+				124D2D3DCCCE6395B87EBF57AC74B260 /* SwpCateGory */,
+				FDE543FC43DD966447238E2576472E96 /* SwpColor */,
+				5B8B0338F7F6D0B9B858130D18367181 /* SwpCreateImage */,
+				97AECABC02B933B7431EE27E7B575A2D /* SwpSetButton */,
+			);
+			name = SwpCateGory;
+			path = SwpCateGory;
 			sourceTree = "<group>";
 		};
 		FB410A992BA44846739969924565F33A /* Models */ = {
@@ -262,34 +532,99 @@
 			path = Models;
 			sourceTree = "<group>";
 		};
+		FDE543FC43DD966447238E2576472E96 /* SwpColor */ = {
+			isa = PBXGroup;
+			children = (
+				99AE17BDDEE7CF8677930A88B1FFDDDF /* UIColor+SwpColor.h */,
+				1AFD3AB278D23C2756C73E3A2C1B73B0 /* UIColor+SwpColor.m */,
+			);
+			name = SwpColor;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXHeadersBuildPhase section */
-		F8FE210084E1359293E81EA927BAAF54 /* Headers */ = {
+		4C969670085758031C82CC94BF3D6123 /* Headers */ = {
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				C1DB32D96BEECCFDAA2F90013BAE82C0 /* SwpBaseLocation.h in Headers */,
-				8CF22FB6F483FEF6F1B0D9B9374C0187 /* SwpLocation.h in Headers */,
-				9C6A81C4A27E0C80026E9E9B02D7BBF8 /* SwpLocationCoordinateUtils.h in Headers */,
-				2A954A0B8BD30337DFBC11EB85AF9E57 /* SwpLocationDelegate.h in Headers */,
-				14755F61FA60947BF2C72B9260D1964A /* SwpLocationHeader.h in Headers */,
-				875C1E0483CA7BCB8A9D9370AB553860 /* SwpLocationModel.h in Headers */,
-				042EE721A3B21BEC55A4A76C885D4AA9 /* SwpLocationTools.h in Headers */,
-				E2897745EBA58CEC30E4E209850A2B1C /* SwpLocationType.h in Headers */,
+				EE35CA8F7614528A6512675D61FD484D /* SwpBaseLocation.h in Headers */,
+				5936EC36DB2BEB4211C4B9C65D26C444 /* SwpLocation.h in Headers */,
+				AE4300AA218F3A54D5BDD01C975C2797 /* SwpLocationCoordinateUtils.h in Headers */,
+				F21927B97B9EFA0A34F92929F3FC3027 /* SwpLocationDelegate.h in Headers */,
+				01A1C0D211773508B60C52598863209D /* SwpLocationHeader.h in Headers */,
+				2439614EF810054319E1E94D9ED648BE /* SwpLocationModel.h in Headers */,
+				6EE8D9F1792C39230A1AE7683C418DE3 /* SwpLocationTools.h in Headers */,
+				1FAF73EB64CB8A6C38FCEFEC575E5506 /* SwpLocationType.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BDF73468622762862D2FB76ED4AC0D8E /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F861D2DADCE8A8F94F1DCB22EB8A6CE2 /* MASCompositeConstraint.h in Headers */,
+				81C1291C7ABA4942277F5756671AEE37 /* MASConstraint+Private.h in Headers */,
+				6FBEF9BEF976F73220F5EA0246FA6674 /* MASConstraint.h in Headers */,
+				B5EC5518E18B05A5334C49ABBF4C78F7 /* MASConstraintMaker.h in Headers */,
+				9AB27A7F752AB644728D50B0228A070E /* MASLayoutConstraint.h in Headers */,
+				523F69012549DCADB26D11EFB6593B5B /* Masonry.h in Headers */,
+				7AC0D0965486ED43C064F1BC177ACBC9 /* MASUtilities.h in Headers */,
+				100DCBFE39E91CF7A296FABFAB4D7CC6 /* MASViewAttribute.h in Headers */,
+				5EBFADB0ACACA114B98082EBD8FDA650 /* MASViewConstraint.h in Headers */,
+				9BFAE06AC2F3B426C64EEDBF8C99A69E /* NSArray+MASAdditions.h in Headers */,
+				FB415F79751F1A1F2203183C3CEE0723 /* NSArray+MASShorthandAdditions.h in Headers */,
+				214DF0B6664033C87D6B846599FB477A /* NSLayoutConstraint+MASDebugAdditions.h in Headers */,
+				C6E83C10646E2DF6C83A578CE6AF0E5A /* View+MASAdditions.h in Headers */,
+				92711327ED7920702A69A828271279AE /* View+MASShorthandAdditions.h in Headers */,
+				86B2DF4CC6E598AAA73D0CC6EEBA0E96 /* ViewController+MASAdditions.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F1D5AFCAB8943130F6C8EE007506316A /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8BD9EA5DB39753591A119384B6A7B73E /* NSMutableAttributedString+SwpAttributed.h in Headers */,
+				8BF38CF4B6B6FFA1F27536D1EC4C9690 /* SwpAttributedColor.h in Headers */,
+				1E1D43F929A6A90344CA4EC9AA428686 /* SwpAttributedDelegate.h in Headers */,
+				565876FBE27CF20AE29CAA61DF0A003B /* SwpAttributedFont.h in Headers */,
+				23DDC5256CB02EB8F3A12EBD1E94A53D /* SwpAttributedHeader.h in Headers */,
+				B835CAC77697C441078584F01B5F8BB0 /* SwpAttributedString.h in Headers */,
+				19DF2ABD5CD39B12CCE810189D5BFC48 /* SwpCateGory.h in Headers */,
+				F428CC52273128A2CCDEF3C309ABBB27 /* UIButton+SwpSetButton.h in Headers */,
+				8EF80B08843E95BEE844245741632FA2 /* UIColor+SwpColor.h in Headers */,
+				525574B2075727A2C43B48A617028FBF /* UIImage+SwpCreateImage.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		105EEA1D1BF5EBD4117BF6A7975213B3 /* SwpLocation */ = {
+		3330CB23BDAC7711E83F8DD1098A72BF /* SwpCateGory */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 97B1ECBFAF2C2F6CF5E914013F238FB0 /* Build configuration list for PBXNativeTarget "SwpLocation" */;
+			buildConfigurationList = B32005572ED3077A414C9A56ECFF706C /* Build configuration list for PBXNativeTarget "SwpCateGory" */;
 			buildPhases = (
-				7231AD6B8BF82126B94E0EF66EA2B242 /* Sources */,
-				DC95649AE32F4A2CA89961A2239D764C /* Frameworks */,
-				F8FE210084E1359293E81EA927BAAF54 /* Headers */,
+				2CCA4F56550E866F98224A41B07D8A8F /* Sources */,
+				596D61AFDCBF6CAC182B5CE1F755AE15 /* Frameworks */,
+				F1D5AFCAB8943130F6C8EE007506316A /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = SwpCateGory;
+			productName = SwpCateGory;
+			productReference = B2CD908C40EDCBE11C703A38ACED5B9F /* libSwpCateGory.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		8266B5F049E8D640CF6302771B549BE6 /* SwpLocation */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 32E85E20C27FA4195C7284F9818F544C /* Build configuration list for PBXNativeTarget "SwpLocation" */;
+			buildPhases = (
+				AB04B00366F19EB32926D846C4B24DD4 /* Sources */,
+				59AD6F726EBE0744B1C614502A2B8232 /* Frameworks */,
+				4C969670085758031C82CC94BF3D6123 /* Headers */,
 			);
 			buildRules = (
 			);
@@ -297,24 +632,43 @@
 			);
 			name = SwpLocation;
 			productName = SwpLocation;
-			productReference = 9FE02B9D6F976FB3DDAEE83FBD2BB74E /* libSwpLocation.a */;
+			productReference = B311C02D3FD74ADC1A2ED99ED5FCB32F /* libSwpLocation.a */;
 			productType = "com.apple.product-type.library.static";
 		};
-		A44C976C5A2A50F65367FCFB7CC0CE54 /* Pods-SwpLocationDemo */ = {
+		9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 80B8812B3E59FE7680BC3042B830E68E /* Build configuration list for PBXNativeTarget "Pods-SwpLocationDemo" */;
+			buildConfigurationList = 34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */;
 			buildPhases = (
-				DD88E1BE814BFC0850BBDE11E73E341D /* Sources */,
-				7B3BA1A045E0033941B9135208F59E34 /* Frameworks */,
+				27E8E3A06AAFF112FF7BC4F0117165D8 /* Sources */,
+				6FD8312A1AEB348F49A81C438DB25115 /* Frameworks */,
+				BDF73468622762862D2FB76ED4AC0D8E /* Headers */,
 			);
 			buildRules = (
 			);
 			dependencies = (
-				C89539FFDEE71AFB2F2C8083F19517DF /* PBXTargetDependency */,
+			);
+			name = Masonry;
+			productName = Masonry;
+			productReference = D29DF4CFAC746C83776653672CF0B00F /* libMasonry.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D7267A2936459CE33452929C8F329916 /* Pods-SwpLocationDemo */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = A9F2F6F517932A5892BF6FB8BBDFE77C /* Build configuration list for PBXNativeTarget "Pods-SwpLocationDemo" */;
+			buildPhases = (
+				2B00CCBFC2C07F5F0EB1BEB553D4DA56 /* Sources */,
+				7B6A945CCFF3BDC1C1C70021ED831726 /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				89F1B4FAEF31FDC17C8AE5DD941D6817 /* PBXTargetDependency */,
+				01CF73205FBA4D183AFA267F8A2787C4 /* PBXTargetDependency */,
+				C76015F2883BA2F03F8B2836C0CF3C28 /* PBXTargetDependency */,
 			);
 			name = "Pods-SwpLocationDemo";
 			productName = "Pods-SwpLocationDemo";
-			productReference = 042A5B346E858DEB9E95754C33199FA7 /* libPods-SwpLocationDemo.a */;
+			productReference = CE764C3816838B59D9FDC71D22547688 /* libPods-SwpLocationDemo.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -334,47 +688,95 @@
 				en,
 			);
 			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
-			productRefGroup = 9A76AA2B09606C89BF6282115B95ADE9 /* Products */;
+			productRefGroup = 63B44FD2A2E3B6DCAAB01600AF678AF1 /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				A44C976C5A2A50F65367FCFB7CC0CE54 /* Pods-SwpLocationDemo */,
-				105EEA1D1BF5EBD4117BF6A7975213B3 /* SwpLocation */,
+				9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */,
+				D7267A2936459CE33452929C8F329916 /* Pods-SwpLocationDemo */,
+				3330CB23BDAC7711E83F8DD1098A72BF /* SwpCateGory */,
+				8266B5F049E8D640CF6302771B549BE6 /* SwpLocation */,
 			);
 		};
 /* End PBXProject section */
 
 /* Begin PBXSourcesBuildPhase section */
-		7231AD6B8BF82126B94E0EF66EA2B242 /* Sources */ = {
+		27E8E3A06AAFF112FF7BC4F0117165D8 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				2133B03B3AD76A973FBF175457C4A882 /* SwpBaseLocation.m in Sources */,
-				F6704EF14B812C3144DF4FAF7861A126 /* SwpLocation-dummy.m in Sources */,
-				3CBE4DBB0782EFA13D30FD1EF27E4230 /* SwpLocation.m in Sources */,
-				0227ACBFA428B333D1C263062F4885B3 /* SwpLocationCoordinateUtils.m in Sources */,
-				71E652D09529B7F63E9296755E4D935A /* SwpLocationModel.m in Sources */,
-				1F646D7DF36EFC9F6A658E4A7E845058 /* SwpLocationTools.m in Sources */,
-				01A2D1319F2D280F19C7D1B4DDB02C31 /* SwpLocationType.m in Sources */,
+				F390D582745DF3516ADD4D910A2ACFFA /* MASCompositeConstraint.m in Sources */,
+				1AF513D8D71B663D5422760106B13723 /* MASConstraint.m in Sources */,
+				99E00D593F76D7E6C96300345E211282 /* MASConstraintMaker.m in Sources */,
+				61C611ABFFC5FFF35ACE70883CB8F523 /* MASLayoutConstraint.m in Sources */,
+				5B46C39A3F939EDB676981756CC24007 /* Masonry-dummy.m in Sources */,
+				CEF7E139022FFA4F5C99D4DC5DE67990 /* MASViewAttribute.m in Sources */,
+				D8D72BEC4364E9F77BCC6B8AB4E30DF3 /* MASViewConstraint.m in Sources */,
+				14B65CE3038761FA8F6F5D1ECED6A562 /* NSArray+MASAdditions.m in Sources */,
+				B953667D411D1DCD919CBD314F568A92 /* NSLayoutConstraint+MASDebugAdditions.m in Sources */,
+				548BBD5B63FA097F419829C3EE8EA068 /* View+MASAdditions.m in Sources */,
+				466869E41EB306F74C8A6E87CC1539BF /* ViewController+MASAdditions.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
-		DD88E1BE814BFC0850BBDE11E73E341D /* Sources */ = {
+		2B00CCBFC2C07F5F0EB1BEB553D4DA56 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				3D76B59F62FECC11EF45BD3D16F00F58 /* Pods-SwpLocationDemo-dummy.m in Sources */,
+				D7FBAB77A5421E20AFD6929A16A48899 /* Pods-SwpLocationDemo-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2CCA4F56550E866F98224A41B07D8A8F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				76E05DC707F2E32531B4ED6F3CA4DFD7 /* NSMutableAttributedString+SwpAttributed.m in Sources */,
+				010D6EE77C9061B90A892BE816C3FD63 /* SwpAttributedColor.m in Sources */,
+				FAE5297159674DA9C50D1CF0CDA9FE9C /* SwpAttributedFont.m in Sources */,
+				98049340C2396266498D6A1DEE5BA843 /* SwpAttributedString.m in Sources */,
+				F304AEF28112833F174290E5A321EC2A /* SwpCateGory-dummy.m in Sources */,
+				0C2303CABEFEAE407BE54D0655CEF2BC /* SwpCateGory.m in Sources */,
+				EF9C030B6C75025EAA81620E56FE863D /* UIButton+SwpSetButton.m in Sources */,
+				D135FA253AB3718BACC432A436A06DA5 /* UIColor+SwpColor.m in Sources */,
+				4257A25D312599E14B86A4F80A9A76F5 /* UIImage+SwpCreateImage.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AB04B00366F19EB32926D846C4B24DD4 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F481CFC540D7DBD9ACE69FE174FC4964 /* SwpBaseLocation.m in Sources */,
+				C227A261EFB66A5B259D727D0581517E /* SwpLocation-dummy.m in Sources */,
+				8083D10B4B6BFF10D93C551714A83281 /* SwpLocation.m in Sources */,
+				023B0641378991CFC6E8736F04EAC5CA /* SwpLocationCoordinateUtils.m in Sources */,
+				1CC26BA0FC6E3A4555DDF264CE54CA81 /* SwpLocationModel.m in Sources */,
+				6F9F091EB395CC8BFEF063D5FD097932 /* SwpLocationTools.m in Sources */,
+				33C7209CD7DCA74514B5BCAFAA3A09E9 /* SwpLocationType.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXSourcesBuildPhase section */
 
 /* Begin PBXTargetDependency section */
-		C89539FFDEE71AFB2F2C8083F19517DF /* PBXTargetDependency */ = {
+		01CF73205FBA4D183AFA267F8A2787C4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = SwpCateGory;
+			target = 3330CB23BDAC7711E83F8DD1098A72BF /* SwpCateGory */;
+			targetProxy = 6FC6D031DA8D686E745031677CAE8EDA /* PBXContainerItemProxy */;
+		};
+		89F1B4FAEF31FDC17C8AE5DD941D6817 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = Masonry;
+			target = 9DC8D9E02903E93BD0B2FEC9D846EA20 /* Masonry */;
+			targetProxy = AA674AE7A6C09A8A3D8CF754443E4013 /* PBXContainerItemProxy */;
+		};
+		C76015F2883BA2F03F8B2836C0CF3C28 /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
 			name = SwpLocation;
-			target = 105EEA1D1BF5EBD4117BF6A7975213B3 /* SwpLocation */;
-			targetProxy = 3F01688701D2F9B103601FE79333E683 /* PBXContainerItemProxy */;
+			target = 8266B5F049E8D640CF6302771B549BE6 /* SwpLocation */;
+			targetProxy = 7D9F1EA86A465581A95ECA172BB907CA /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
 
@@ -442,7 +844,7 @@
 			};
 			name = Debug;
 		};
-		5F55C21197D1794753E9983213837DA4 /* Debug */ = {
+		1FD12E5EF0CDB4F896E4ECE2F8C24BF1 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = F6A8C6345833B53C2CB485B8A103546A /* Pods-SwpLocationDemo.debug.xcconfig */;
 			buildSettings = {
@@ -463,29 +865,54 @@
 			};
 			name = Debug;
 		};
-		6654BEF1F18DBC61546AB674ED74000E /* Release */ = {
+		6033A2127E806DD5C86A515742F7445E /* Debug */ = {
 			isa = XCBuildConfiguration;
-			baseConfigurationReference = D3BC766136E30A33A8C763ADF9AF9834 /* Pods-SwpLocationDemo.release.xcconfig */;
+			baseConfigurationReference = 37783D22CE386DEB4C9BF6BD33E3731F /* Masonry.xcconfig */;
 			buildSettings = {
-				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
 				CODE_SIGN_IDENTITY = "iPhone Developer";
 				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
 				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
-				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
-				MACH_O_TYPE = staticlib;
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
 				OTHER_LDFLAGS = "";
 				OTHER_LIBTOOLFLAGS = "";
-				PODS_ROOT = "$(SRCROOT)";
-				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		6681B1A324732F8264BB932595DFA69B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 37783D22CE386DEB4C9BF6BD33E3731F /* Masonry.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/Masonry/Masonry-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 6.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = Masonry;
+				PRODUCT_NAME = Masonry;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
 				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
 		};
-		6786C444C12E21DE2C6AE2155A195017 /* Debug */ = {
+		72EBB67905FA977948BEDFEB61AACB57 /* Debug */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */;
 			buildSettings = {
@@ -508,7 +935,7 @@
 			};
 			name = Debug;
 		};
-		CD205E4B4ABB7AF1F4CF96E5AFF928F9 /* Release */ = {
+		85B4E23924ACA8DAD418AEC236146F11 /* Release */ = {
 			isa = XCBuildConfiguration;
 			baseConfigurationReference = CC29A909AB375168383C322758136EE7 /* SwpLocation.xcconfig */;
 			buildSettings = {
@@ -523,6 +950,75 @@
 				PRIVATE_HEADERS_FOLDER_PATH = "";
 				PRODUCT_MODULE_NAME = SwpLocation;
 				PRODUCT_NAME = SwpLocation;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		9E3A6192D7FF636753F63F44A4A1527E /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D3BC766136E30A33A8C763ADF9AF9834 /* Pods-SwpLocationDemo.release.xcconfig */;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = NO;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				MACH_O_TYPE = staticlib;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_BUNDLE_IDENTIFIER = "org.cocoapods.${PRODUCT_NAME:rfc1034identifier}";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		CAF7F3C1404B8B1F1356BC7BFFE798D5 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DED6E9D8B05C610CE9699A46CDDCFC0 /* SwpCateGory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwpCateGory/SwpCateGory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwpCateGory;
+				PRODUCT_NAME = SwpCateGory;
+				PUBLIC_HEADERS_FOLDER_PATH = "";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "$(inherited) ";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F062769DE759213B8213A6AEB784133B /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0DED6E9D8B05C610CE9699A46CDDCFC0 /* SwpCateGory.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				"CODE_SIGN_IDENTITY[sdk=appletvos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "";
+				"CODE_SIGN_IDENTITY[sdk=watchos*]" = "";
+				GCC_PREFIX_HEADER = "Target Support Files/SwpCateGory/SwpCateGory-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.0;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRIVATE_HEADERS_FOLDER_PATH = "";
+				PRODUCT_MODULE_NAME = SwpCateGory;
+				PRODUCT_NAME = SwpCateGory;
 				PUBLIC_HEADERS_FOLDER_PATH = "";
 				SDKROOT = iphoneos;
 				SKIP_INSTALL = YES;
@@ -602,20 +1098,38 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		80B8812B3E59FE7680BC3042B830E68E /* Build configuration list for PBXNativeTarget "Pods-SwpLocationDemo" */ = {
+		32E85E20C27FA4195C7284F9818F544C /* Build configuration list for PBXNativeTarget "SwpLocation" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				5F55C21197D1794753E9983213837DA4 /* Debug */,
-				6654BEF1F18DBC61546AB674ED74000E /* Release */,
+				72EBB67905FA977948BEDFEB61AACB57 /* Debug */,
+				85B4E23924ACA8DAD418AEC236146F11 /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		97B1ECBFAF2C2F6CF5E914013F238FB0 /* Build configuration list for PBXNativeTarget "SwpLocation" */ = {
+		34CAE1CB89EDBF2E53735CC5D4E5E69F /* Build configuration list for PBXNativeTarget "Masonry" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
-				6786C444C12E21DE2C6AE2155A195017 /* Debug */,
-				CD205E4B4ABB7AF1F4CF96E5AFF928F9 /* Release */,
+				6033A2127E806DD5C86A515742F7445E /* Debug */,
+				6681B1A324732F8264BB932595DFA69B /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		A9F2F6F517932A5892BF6FB8BBDFE77C /* Build configuration list for PBXNativeTarget "Pods-SwpLocationDemo" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1FD12E5EF0CDB4F896E4ECE2F8C24BF1 /* Debug */,
+				9E3A6192D7FF636753F63F44A4A1527E /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32005572ED3077A414C9A56ECFF706C /* Build configuration list for PBXNativeTarget "SwpCateGory" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				CAF7F3C1404B8B1F1356BC7BFFE798D5 /* Debug */,
+				F062769DE759213B8213A6AEB784133B /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;

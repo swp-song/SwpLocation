@@ -92,9 +92,11 @@ EOM
   esac
 }
 if [[ "$CONFIGURATION" == "Debug" ]]; then
+  install_resource "${PODS_ROOT}/SwpCateGory/SwpCateGory/Resources/SwpCateGory.bundle"
   install_resource "${PODS_ROOT}/../../SwpLocation/Resources/SwpLocation.bundle"
 fi
 if [[ "$CONFIGURATION" == "Release" ]]; then
+  install_resource "${PODS_ROOT}/SwpCateGory/SwpCateGory/Resources/SwpCateGory.bundle"
   install_resource "${PODS_ROOT}/../../SwpLocation/Resources/SwpLocation.bundle"
 fi
 
