@@ -9,7 +9,7 @@ PODS:
     - SwpCateGory/SwpCateGory
   - SwpCateGory/SwpSetButton (2.6.3):
     - SwpCateGory/SwpCateGory
-  - SwpLocation (1.2.5)
+  - SwpLocation (1.2.6)
 
 DEPENDENCIES:
   - Masonry
@@ -31,7 +31,7 @@ EXTERNAL SOURCES:
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
   SwpCateGory: b27df2cd4f2169de51af7a241d0bff38290df67b
-  SwpLocation: 3bb11b58ed00db9a63aa18442a7594efe9767e79
+  SwpLocation: ab34fbf6c4d5705f9bf3551aa2167857173b0e37
 
 PODFILE CHECKSUM: b44ab791cf5cc1e587b0d13b3c3269c2231bf12d
 

@@ -7,7 +7,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
 [![License](https://img.shields.io/cocoapods/l/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
 [![Platform](https://img.shields.io/cocoapods/p/SwpLocation.svg?style=flat)](http://cocoapods.org/pods/SwpLocation)
-[![SwpLocationAPI](https://img.shields.io/badge/SwpLocationAPI-v1.2.5-44E0D3.svg)](https://swp-song.com/docs/SwpLocation/)
+[![SwpLocationAPI](https://img.shields.io/badge/SwpLocationAPI-v1.2.6-44E0D3.svg)](https://swp-song.com/docs/SwpLocation/)
 
 
 
@@ -112,21 +112,19 @@ SwpLocation.shareInstanceInit()
 
 ### 版本记录
 
+> * 版本版本：1.2.6
+> * 更新时间：2018-04-14 01:00:13
+> * 更新内容：
+>> * 优化内部方法。
+
+>> -------
+
 > * 版本版本：1.2.5
 > * 更新时间：2018-04-11 13:49:09
 > * 更新内容：
 >>  *  修改 .podspec 文件
 
 >> -------
-
-> * 版本版本：1.2.4
-> * 更新时间：2018-04-11 13:04:22
-> * 更新内容：
->> * 更新 Demo，迭代版本。
-
->> -------
-
-
 
 -------
 

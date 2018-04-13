@@ -8,9 +8,6 @@
 
 #import "SwpLocationCoordinateUtils.h"
 
-
-#define swp_location_coordinate_utils __inline__ __attribute__((always_inline))
-
 @implementation SwpLocationCoordinateUtils
 
 /**
@@ -278,7 +275,7 @@ SwpLocationCoordinate2D SwpLocationCoordinateUtilsWGS84ToBD09(SwpLocationDegrees
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinateUtilsGCJ02ToBD09(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinateUtilsGCJ02ToBD09(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     
     SwpLocationDegrees2D x     = longitude;
     SwpLocationDegrees2D y     = latitude;
@@ -299,7 +296,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinateUtilsBD09ToGCJ02(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinateUtilsBD09ToGCJ02(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     
     SwpLocationDegrees2D x     = longitude - 0.0065;
     SwpLocationDegrees2D y     = latitude  - 0.006;
@@ -320,7 +317,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinateUtilsWGS84ToGCJ02(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinateUtilsWGS84ToGCJ02(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     
     static const double SWP_AA    = 6378245.0;
     static const double SWP_EE    = 0.00669342162296594323;
@@ -348,7 +345,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinateUtilsGCJ02ToWGS84(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinateUtilsGCJ02ToWGS84(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     //  1.Transform GCJ02
     SwpLocationCoordinate2D GCJ02 = _SwpLocationCoordinateUtilsWGS84ToGCJ02(latitude, longitude);
     
@@ -367,7 +364,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinateUtilsBD09ToWGS84(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinateUtilsBD09ToWGS84(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     //  1. BD-09 Transform GCJ02
     SwpLocationCoordinate2D GCJ02 = _SwpLocationCoordinateUtilsBD09ToGCJ02(latitude, longitude);
     //  1. GCJ02 Transform WGS84
@@ -385,7 +382,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinateUtilsWGS84ToBD09(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinateUtilsWGS84ToBD09(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     //  1.  WGS84 Transform GCJ02
     SwpLocationCoordinate2D GCJ02 = _SwpLocationCoordinateUtilsWGS84ToGCJ02(latitude, longitude);
     //  2.  GCJ02 Transform BD09
@@ -407,7 +404,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return SwpLocationCoordinate2D
  */
-static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordinate2DMake(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE SwpLocationCoordinate2D _SwpLocationCoordinate2DMake(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     SwpLocationCoordinate2D swpLocationCoordinate2D;
     swpLocationCoordinate2D.latitude    = latitude;
     swpLocationCoordinate2D.longitude   = longitude;
@@ -425,7 +422,7 @@ static swp_location_coordinate_utils SwpLocationCoordinate2D _SwpLocationCoordin
  *
  *  @return BOOL         YES = in In China, NO = Not In China
  */
-static swp_location_coordinate_utils BOOL _SwpLocationCoordinateUtilsWhetherInInChina(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
+FOUNDATION_STATIC_INLINE BOOL _SwpLocationCoordinateUtilsWhetherInInChina(SwpLocationDegrees2D latitude, SwpLocationDegrees2D longitude) {
     // not in China
     if (longitude < 72.004 || longitude > 137.8347 || latitude < 0.8293 || latitude > 55.8271) return NO;
     return YES;
@@ -442,7 +439,7 @@ static swp_location_coordinate_utils BOOL _SwpLocationCoordinateUtilsWhetherInIn
  *
  *  @return SwpLocationDegrees2D
  */
-static swp_location_coordinate_utils double TransformLatitude(double x, double y) {
+FOUNDATION_STATIC_INLINE double TransformLatitude(double x, double y) {
     
     static const double SWP_M_PI = M_PI * 3000.00 / 180.00;
     double ret = -100.0 + 2.0 * x + 3.0 * y + 0.2 * y * y + 0.1 * x * y + 0.2 * sqrt(fabs(x));
@@ -463,7 +460,7 @@ static swp_location_coordinate_utils double TransformLatitude(double x, double y
  *
  *  @return SwpLocationDegrees2D
  */
-static swp_location_coordinate_utils double TransformLongitude(double x, double y) {
+FOUNDATION_STATIC_INLINE double TransformLongitude(double x, double y) {
     
     static const double SWP_M_PI = M_PI * 3000.00 / 180.00;
     double ret = 300.0 + x + 2.0 * y + 0.1 * x * x + 0.1 * x * y + 0.1 * sqrt(fabs(x));
