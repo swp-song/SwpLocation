@@ -6,7 +6,7 @@
 [![Version](https://img.shields.io/cocoapods/v/SwpCateGory.svg?style=flat)](http://cocoapods.org/pods/SwpCateGory) 
 [![License](https://img.shields.io/cocoapods/l/SwpCateGory.svg?style=flat)](http://cocoapods.org/pods/SwpCateGory) 
 [![Platform](https://img.shields.io/cocoapods/p/SwpCateGory.svg?style=flat)](http://cocoapods.org/pods/SwpCateGory)
-[![SwpCateGoryAPI](https://img.shields.io/badge/SwpCateGoryAPI-v2.6.3-44E0D3.svg)](https://swp-song.com/docs/SwpCateGory/)
+[![SwpCateGoryAPI](https://img.shields.io/badge/SwpCateGoryAPI-v2.8.1-44E0D3.svg)](https://swp-song.com/docs/SwpCateGory/)
 
 -------
 
@@ -42,6 +42,9 @@ pod 'SwpCateGory/SwpUserDefaults'
 pod 'SwpCateGory/SwpAttributed'
 pod 'SwpCateGory/SwpSetNavigationBarItem'
 pod 'SwpCateGory/SwpSetButton'
+pod 'SwpCateGory/SwpButtonLayout'
+pod 'SwpCateGory/SwpButtonCircleAnimation'
+pod 'SwpCateGory/SwpButtonUtils'
 pod 'SwpCateGory/SwpColor'
 pod 'SwpCateGory/SwpFont'
 pod 'SwpCateGory/SwpQrCodeImage'
@@ -69,21 +72,24 @@ pod 'SwpCateGory/SwpViewScreenshots'
 
 ### 版本记录
 
-> * 版本版本：2.6.3
-> * 更新时间：2018-04-11 09:44:24
+
+> * 版本版本：2.8.1
+> * 更新时间：2018-05-13 17:34:54
 > * 更新内容：
 >
->> * 更新资源文件。
+>> *  修复内部问题。
 
 >> -------
 
-> * 版本版本：2.6.2
-> * 更新时间：2018-03-27 10:58:12
+> * 版本版本：2.8.0
+> * 更新时间：2018-05-06 02:54:42
 > * 更新内容：
 >
->> * 例行更新。
+>> * 新增，SwpButtonUtils 类目，设置按钮渐变，SwpButtonCircleAnimation 动画从外部，设置到内部。
 
 >> -------
+
+
 
 
 -------

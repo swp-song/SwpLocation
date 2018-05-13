@@ -137,14 +137,14 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param  swpLocationReverseGeocode   swpLocationReverseGeocode
  */
-- (void)swpLocationReverseGeocode:(void (^ _Nullable)(SwpLocation * _Nonnull swpLocation, SwpLocationModel * _Nonnull model, NSError * _Nonnull error))swpLocationReverseGeocode;
+- (void)swpLocationReverseGeocode:(void (^ _Nullable)(SwpLocation * _Nonnull swpLocation, SwpLocationModel * _Nonnull model, NSError * _Nullable error))swpLocationReverseGeocode;
 
 /**
  *  @author swp_song
  *
  *  @brief  swpLocationReverseGeocodeChain  ( SwpLocation 回调方法，反地理编码调用 )
  */
-- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain;
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nullable)))swpLocationReverseGeocodeChain;
 
 
 

@@ -1,0 +1,6 @@
+framework module SwpLocation {
+  umbrella header "SwpLocation-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,15 +1,15 @@
 PODS:
   - Masonry (1.1.0)
-  - SwpCateGory/SwpAttributed (2.6.3):
+  - SwpCateGory/SwpAttributed (2.8.1):
     - SwpCateGory/SwpCateGory
-  - SwpCateGory/SwpCateGory (2.6.3)
-  - SwpCateGory/SwpColor (2.6.3):
+  - SwpCateGory/SwpCateGory (2.8.1)
+  - SwpCateGory/SwpColor (2.8.1):
     - SwpCateGory/SwpCateGory
-  - SwpCateGory/SwpCreateImage (2.6.3):
+  - SwpCateGory/SwpCreateImage (2.8.1):
     - SwpCateGory/SwpCateGory
-  - SwpCateGory/SwpSetButton (2.6.3):
+  - SwpCateGory/SwpSetButton (2.8.1):
     - SwpCateGory/SwpCateGory
-  - SwpLocation (1.2.6)
+  - SwpLocation (1.2.7)
 
 DEPENDENCIES:
   - Masonry
@@ -20,7 +20,7 @@ DEPENDENCIES:
   - SwpLocation (from `../`)
 
 SPEC REPOS:
-  https://github.com/CocoaPods/Specs.git:
+  https://github.com/cocoapods/specs.git:
     - Masonry
     - SwpCateGory
 
@@ -30,9 +30,9 @@ EXTERNAL SOURCES:
 
 SPEC CHECKSUMS:
   Masonry: 678fab65091a9290e40e2832a55e7ab731aad201
-  SwpCateGory: b27df2cd4f2169de51af7a241d0bff38290df67b
-  SwpLocation: ab34fbf6c4d5705f9bf3551aa2167857173b0e37
+  SwpCateGory: f3479d253c1693914ae417f82bc798b600b7c256
+  SwpLocation: a77825f9fef3afdb29f0c4ba9d7eb303aca522f4
 
 PODFILE CHECKSUM: b44ab791cf5cc1e587b0d13b3c3269c2231bf12d
 
-COCOAPODS: 1.5.0
+COCOAPODS: 1.5.2

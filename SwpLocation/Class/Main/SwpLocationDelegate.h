@@ -53,7 +53,6 @@ NS_ASSUME_NONNULL_BEGIN
  */
 - (void)swpLocation:(SwpLocation *)swpLocation locationError:(NSError *)error;
 
-
 /**
  *  @author swp_song
  *
@@ -65,7 +64,7 @@ NS_ASSUME_NONNULL_BEGIN
  *
  *  @param  error       error
  */
-- (void)swpLocation:(SwpLocation *)swpLocation reverseGeocodeLocation:(SwpLocationModel *)model error:(NSError *)error;
+- (void)swpLocation:(SwpLocation *)swpLocation reverseGeocodeLocation:(SwpLocationModel *)model error:(NSError * _Nullable)error;
 
 
 @end

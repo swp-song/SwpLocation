@@ -1,0 +1,16 @@
+PODS:
+  - SwpLocation (1.2.7)
+
+DEPENDENCIES:
+  - SwpLocation (from `../`)
+
+EXTERNAL SOURCES:
+  SwpLocation:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  SwpLocation: a77825f9fef3afdb29f0c4ba9d7eb303aca522f4
+
+PODFILE CHECKSUM: 431b442d571ddc142a0afc61ecfd9bc562ab5b08
+
+COCOAPODS: 1.5.2

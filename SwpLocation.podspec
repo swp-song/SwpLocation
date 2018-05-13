@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = 'SwpLocation'
-  s.version          = '1.2.6'
+  s.version          = '1.2.7'
   s.summary          = 'iOS，系统定位封装, 坐标转换'
 
 # This description is used to generate tags and improve search results.

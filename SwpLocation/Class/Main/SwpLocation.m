@@ -315,7 +315,7 @@
  *
  *  @param  swpLocationDidChangeAuthorizationStatus swpLocationDidChangeAuthorizationStatus
  */
-- (void)swpLocationDidChangeAuthorizationStatus:(void (^)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus))swpLocationDidChangeAuthorizationStatus {
+- (void)swpLocationDidChangeAuthorizationStatus:(void (^)(SwpLocation *, SwpLocationAuthorizedStatus))swpLocationDidChangeAuthorizationStatus {
     _swpLocationDidChangeAuthorizationStatus = swpLocationDidChangeAuthorizationStatus;
 }
 
@@ -324,7 +324,7 @@
  *
  *  @brief  swpLocationDidChangeAuthorizationStatusChain    ( SwpLocation 回调方法，获取定位权限，定位权限发生改变时调用 )
  */
-- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation *, SwpLocationAuthorizedStatus)))swpLocationDidChangeAuthorizationStatusChain {
     
     return ^(void(^swpLocationDidChangeAuthorizationStatus)(SwpLocation *swpLocation, SwpLocationAuthorizedStatus status)) {
         [self swpLocationDidChangeAuthorizationStatus:swpLocationDidChangeAuthorizationStatus];
@@ -340,7 +340,7 @@
  *
  *  @param  swpLocationSuccess  swpLocationSuccess
  */
-- (void)swpLocationSuccess:(void (^)(SwpLocation * _Nonnull, NSArray * _Nonnull))swpLocationSuccess {
+- (void)swpLocationSuccess:(void (^)(SwpLocation *, NSArray *))swpLocationSuccess {
     _swpLocationSuccess = swpLocationSuccess;
 }
 
@@ -349,7 +349,7 @@
  *
  *  @brief  swpLocationSuccessChain ( SwpLocation 回调方法，定位成功调用 )
  */
-- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSArray * _Nonnull)))swpLocationSuccessChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation *, NSArray *)))swpLocationSuccessChain {
     
     return ^(void(^swpLocationSuccess)(SwpLocation *swpLocation, NSArray *locations)) {
         [self swpLocationSuccess:swpLocationSuccess];
@@ -364,7 +364,7 @@
  *
  *  @param  swpLocationError    swpLocationError
  */
-- (void)swpLocationError:(void (^)(SwpLocation * _Nonnull, NSError * _Nonnull))swpLocationError {
+- (void)swpLocationError:(void (^)(SwpLocation *, NSError *))swpLocationError {
     _swpLocationError = swpLocationError;
 }
 
@@ -373,7 +373,7 @@
  *
  *  @brief  swpLocationErrorChain   ( SwpLocation 回调方法，定位失败调用 )
  */
-- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, NSError * _Nonnull)))swpLocationErrorChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation *, NSError *)))swpLocationErrorChain {
     return ^(void(^swpLocationError)(SwpLocation *swpLocation, NSError *error)) {
         [self swpLocationError:swpLocationError];
         return self;
@@ -389,7 +389,7 @@
  *
  *  @param  swpLocationReverseGeocode   swpLocationReverseGeocode
  */
-- (void)swpLocationReverseGeocode:(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull, NSError * _Nonnull))swpLocationReverseGeocode {
+- (void)swpLocationReverseGeocode:(void (^)(SwpLocation *, SwpLocationModel *, NSError *))swpLocationReverseGeocode {
     _swpLocationReverseGeocode = swpLocationReverseGeocode;
 }
 
@@ -399,7 +399,7 @@
  *
  *  @brief  swpLocationReverseGeocodeChain  ( SwpLocation 回调方法，反地理编码调用 )
  */
-- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation * _Nonnull, SwpLocationModel * _Nonnull , NSError * _Nonnull)))swpLocationReverseGeocodeChain {
+- (__kindof SwpLocation * _Nonnull (^)(void (^)(SwpLocation *, SwpLocationModel * , NSError *)))swpLocationReverseGeocodeChain {
     return ^(void(^swpLocationReverseGeocode)(SwpLocation *swpLocation, SwpLocationModel *model, NSError *error)) {
         [self swpLocationReverseGeocode:swpLocationReverseGeocode];
         return self;

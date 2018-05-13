@@ -9,7 +9,7 @@
 #import "SwpBaseLocation.h"
 
 
-static id swpBaseLocation_;
+static id _swpBaseLocation;
 
 @implementation SwpBaseLocation
 
@@ -26,9 +26,9 @@ static id swpBaseLocation_;
 + (instancetype)allocWithZone:(struct _NSZone *)zone{
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken, ^{
-        swpBaseLocation_ = [super allocWithZone:zone];
+        _swpBaseLocation = [super allocWithZone:zone];
     });
-    return swpBaseLocation_;
+    return _swpBaseLocation;
 }
 
 /**
@@ -41,7 +41,7 @@ static id swpBaseLocation_;
  *  @return id
  */
 - (id)copyWithZone:(NSZone *)zone {
-    return  swpBaseLocation_;
+    return  _swpBaseLocation;
 }
 
 /**
@@ -54,7 +54,7 @@ static id swpBaseLocation_;
  *  @return id
  */
 - (id)mutableCopyWithZone:(NSZone *)zone {
-    return swpBaseLocation_;
+    return _swpBaseLocation;
 }
 
 
@@ -85,9 +85,9 @@ static id swpBaseLocation_;
 + (instancetype)shareInstance {
     static dispatch_once_t onceToken;
     dispatch_once(&onceToken,^{
-        swpBaseLocation_ = [[self alloc] init];
+        _swpBaseLocation = [[self alloc] init];
     });
-    return swpBaseLocation_;
+    return _swpBaseLocation;
 }
 
 

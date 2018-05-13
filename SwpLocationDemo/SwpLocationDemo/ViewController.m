@@ -133,17 +133,25 @@
  */
 - (void)location {
     
-    NSLog(@"SwpLocationInfo     = %@", SwpLocation.shareInstanceInit().swpLocationInfo);
-    NSLog(@"SwpLocationVersion  = %@", SwpLocation.shareInstanceInit().swpLocationVersion);
     
     
+    
+    //  请配置对应的权限：
     //  Privacy - Location Always and When In Use Usage Description : 我们需要通过您的地理位置信息获取您周边的相关数据
     //  Privacy - Location Always Usage Description                 : 我们需要通过您的地理位置信息获取您周边的相关数据
     //  Privacy - Location When In Use Usage Description            : 使用应用期间
     
-    
+    //  坐标拾取系统：
     //  https://lbs.amap.com/console/show/picker              高德坐标拾取器
     //  https://api.map.baidu.com/lbsapi/getpoint/index.html  百度坐标拾取器
+    
+    //  注意：
+    //  请尽量使用真机运行，模拟器运行请是设置好定位坐标。
+    
+    
+    NSLog(@"SwpLocationInfo     = %@", SwpLocation.shareInstanceInit().swpLocationInfo);
+    NSLog(@"SwpLocationVersion  = %@", SwpLocation.shareInstanceInit().swpLocationVersion);
+    
     
     __weak typeof(self) weakSelf = self;
     //  初始化
